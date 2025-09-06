@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import logo from "../../../assets/logo/logo.jpeg";
+import logo from "../../../assets/logo/logoBgRemoved.png";
 import { IoCall } from "react-icons/io5";
 
 const Navbar = () => {
