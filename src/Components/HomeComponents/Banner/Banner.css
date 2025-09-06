@@ -1,0 +1,5 @@
+.hover-container:hover .hover-arrow {
+  rotate: 45deg;
+  transition: all;
+  transition-duration: 1s;
+}
