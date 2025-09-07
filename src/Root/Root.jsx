@@ -9,6 +9,7 @@ const Root = () => {
       className="font-content h-screen"
       style={{
         backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url("${bannerImage}")`,
+        backgroundRepeat: "no-repeat",
       }}
     >
       <Navbar></Navbar>

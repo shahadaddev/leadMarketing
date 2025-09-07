@@ -4,7 +4,9 @@ import { IoCall } from "react-icons/io5";
 
 const Navbar = () => {
   const navigationStyle = ({ isActive }) =>
-    `${isActive ? "text-[#F40026]" : ""} hover:text-[#F40026] duration-300`;
+    `${
+      isActive ? "text-[#F40026]" : "text-gray-700"
+    } hover:text-[#F40026] duration-300`;
 
   const navigation = [
     { link: "/", name: "Home" },
