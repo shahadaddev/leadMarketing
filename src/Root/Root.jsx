@@ -2,6 +2,7 @@ import { Outlet } from "react-router";
 import Navbar from "../Components/SharedComponents/Navbar/Navbar";
 import bannerImage from "../assets/banner/bannerImg.jpeg";
 import "./Root.css";
+import Footer from "../Components/Footer/Footer";
 
 const Root = () => {
   return (
@@ -14,6 +15,9 @@ const Root = () => {
     >
       <Navbar></Navbar>
       <Outlet></Outlet>
+      <div className="bg-gray-50">
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
