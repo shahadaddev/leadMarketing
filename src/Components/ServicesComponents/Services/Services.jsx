@@ -11,7 +11,7 @@ const Services = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="max-w-7xl mx-auto w-full flex justify-between gap-10 py-28">
+      <div className="max-w-7xl mx-auto w-full flex justify-between items-center gap-10 py-28">
         <ServicesHomeTitle></ServicesHomeTitle>
         <ServicesCard></ServicesCard>
       </div>
