@@ -1,6 +1,7 @@
 import AboutUs from "../../AboutComponents/About/AboutUs";
 import Services from "../../ServicesComponents/Services/Services";
 import Team from "../../TeamComponents/Team/Team";
+import Testimonial from "../../Testimonial/Testimonial/Testimonial";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Services></Services>
       <div className="bg-gray-50">
         <Team></Team>
+        <Testimonial></Testimonial>
       </div>
     </div>
   );
