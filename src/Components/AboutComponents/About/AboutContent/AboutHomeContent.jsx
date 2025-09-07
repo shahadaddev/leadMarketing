@@ -1,5 +1,6 @@
 import { IoPeople } from "react-icons/io5";
 import AboutHighlight from "./AboutHighlight";
+import AboutHomeButton from "../AboutButton/AboutHomeButton";
 
 const AboutHomeContent = () => {
   return (
@@ -7,7 +8,7 @@ const AboutHomeContent = () => {
       <div className="w-full my-16 flex items-start justify-between gap-8">
         {/* ------------ About Us Details ------------- */}
         <section className="w-8/12">
-          <div className="p-8 rounded-xl text-[#F40026] border-t-2 border-l-2 border-[#F40026] relative">
+          <div className="p-8 rounded-xl text-gray-700 border-t-2 border-l-2 border-[#F40026] relative">
             <p className="text-xl font-medium leading-7 text-justify">
               Lead Marketing Inc. is a full-service marketing and communications
               agency serving worldwide from Canada. This is the global venture
@@ -24,7 +25,7 @@ const AboutHomeContent = () => {
               brand's expressions.
             </p>
             <div>
-              <div className="absolute -top-16 -left-12 flex gap-2 bg-white shadow-2xl px-6 py-4 rounded-xl -rotate-8">
+              <div className="absolute -top-16 -left-12 flex gap-2 bg-white shadow-2xl px-6 py-4 rounded-xl -rotate-12">
                 <IoPeople className="mt-0.5 text-3xl text-indigo-500" />
                 <div>
                   <h5 className="text-3xl text-indigo-500 font-extrabold">
@@ -37,6 +38,7 @@ const AboutHomeContent = () => {
           </div>
 
           {/* Explore About Button */}
+          <AboutHomeButton></AboutHomeButton>
         </section>
 
         {/* About Highlight Icons */}
