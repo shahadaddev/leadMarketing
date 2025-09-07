@@ -38,7 +38,7 @@ const TeamSlide = () => {
         slidesPerView={3}
         // navigation
         loop={true}
-        autoplay={{ delay: 500, disableOnInteraction: false }}
+        autoplay={{ delay: 800, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
@@ -46,7 +46,9 @@ const TeamSlide = () => {
       >
         {teamSlider.map((team, index) => (
           <SwiperSlide key={team.id} virtualIndex={index}>
-            <img className="h-80" src={team.img} alt="" />
+            <div>
+              <img className="h-80" src={team.img} alt="" />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -2,9 +2,9 @@ import TeamSlide from "../TeamSlider/TeamSlide";
 
 const TeamHomeContent = () => {
   return (
-    <div className="w-full">
+    <div className="w-full space-y-20">
       <div>
-        <p className="text-justify text-lg">
+        <p className="text-justify text-lg w-10/12">
           At Lead Marketing Inc., we provide a full spectrum of marketing,
           creative, and tech services, from branding and digital marketing to
           web and software development, delivered by a team of experienced,

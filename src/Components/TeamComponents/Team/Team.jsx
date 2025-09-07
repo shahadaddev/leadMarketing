@@ -3,8 +3,8 @@ import TeamHomeContent from "../TeamContent/TeamHomeContent/TeamHomeContent";
 
 const Team = () => {
   return (
-    <div className="max-w-7xl mx-auto py-24">
-      <div className="flex w-full justify-between gap-8">
+    <div className="max-w-7xl mx-auto py-28">
+      <div className="flex w-full justify-between items-start gap-8">
         <div className="w-8/12">
           <TeamHomeContent></TeamHomeContent>
         </div>
