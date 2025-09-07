@@ -6,7 +6,7 @@ const BannerContent = () => {
     <div>
       <section className="flex justify-between gap-20 mt-16">
         <div className="space-y-4">
-          <h5 className="flex items-center gap-1 bg-emerald-100 w-4/12 px-5 py-2 rounded-xl text-emerald-600 border-1 border-emerald-600 font-bold">
+          <h5 className="flex items-center gap-1 bg-emerald-100 w-4/12 px-5 py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-bold">
             {" "}
             <HiBadgeCheck className="text-2xl" />
             Trusted Worldwide

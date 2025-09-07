@@ -1,4 +1,5 @@
 import React from "react";
+import { HiBadgeCheck } from "react-icons/hi";
 
 const AboutHomeTitle = () => {
   return (
