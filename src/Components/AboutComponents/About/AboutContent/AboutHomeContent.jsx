@@ -5,7 +5,7 @@ import AboutHomeButton from "../AboutButton/AboutHomeButton";
 const AboutHomeContent = () => {
   return (
     <div>
-      <div className="w-full my-16 flex items-start justify-between gap-8">
+      <div className="w-full mt-16 mb-8 flex items-start justify-between gap-8">
         {/* ------------ About Us Details ------------- */}
         <section className="w-8/12">
           <div className="p-8 rounded-xl text-gray-700 border-t-2 border-l-2 border-[#F40026] relative">

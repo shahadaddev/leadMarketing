@@ -1,4 +1,5 @@
 import AboutUs from "../../AboutComponents/About/AboutUs";
+import Services from "../../ServicesComponents/Services/Services";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="bg-gray-50">
         <AboutUs></AboutUs>
       </div>
+      <Services></Services>
     </div>
   );
 };
