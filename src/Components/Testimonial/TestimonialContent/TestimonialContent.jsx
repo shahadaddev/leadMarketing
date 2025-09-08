@@ -14,7 +14,7 @@ const TestimonialContent = () => {
       {/* Testimonials */}
       <div className="flex justify-center gap-18 w-3/4 mx-auto py-16">
         <div className="relative">
-          <div className="bg-emerald-500 shadow-2xl px-10 py-10 rounded-t-4xl rounded-bl-[90px] w-[500px] text-white/90 h-72">
+          <div className="bg-emerald-500 shadow-xl px-10 py-10 rounded-t-4xl rounded-bl-[90px] w-[500px] text-white/90 h-72">
             <p className="text-justify font-medium">
               Lead Bangladesh seamlessly executes our entire digital marketing
               strategy with incredible skill and expertise. Their ability to
@@ -35,7 +35,7 @@ const TestimonialContent = () => {
 
         {/* Number Two */}
         <div className="relative">
-          <div className="bg-white shadow-2xl px-10 py-10 rounded-t-4xl rounded-bl-[90px] w-[500px] h-72">
+          <div className="bg-white shadow-xl px-10 py-10 rounded-t-4xl rounded-bl-[90px] w-[500px] h-72">
             <p className="text-justify font-medium">
               Working with Lead Bangladesh team provided us with the expert
               guidance we need to take our firm's marketing in digital realm and

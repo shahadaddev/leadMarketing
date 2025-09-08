@@ -9,7 +9,7 @@ const PartnerCompanyContent = () => {
         {/* Company One */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-xl h-[620px] mt-36 shadow-xl"
+        rounded-2xl h-[620px] mt-36 shadow-xl"
         >
           <div className="p-4">
             <img src={companyOne} className="rounded-xl" alt="" />
@@ -32,7 +32,7 @@ const PartnerCompanyContent = () => {
         {/* Company Two */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-xl h-[640px] shadow-xl"
+        rounded-2xl h-[640px] shadow-xl"
         >
           <div className="p-4">
             <img src={companyTwo} className="rounded-xl" alt="" />
@@ -56,7 +56,7 @@ const PartnerCompanyContent = () => {
         {/* Card Three */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-xl h-[620px] mt-36 shadow-xl"
+        rounded-2xl h-[620px] mt-36 shadow-xl"
         >
           <div className="p-4">
             <img src={companyThree} className="rounded-xl" alt="" />
