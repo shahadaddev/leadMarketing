@@ -9,15 +9,16 @@ import Banner from "../Banner/Banner";
 import questionBg from "../../../assets/images/questionBg.JPG";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
 import bannerImage from "../../../assets/banner/bannerImg.jpeg";
+import "./Home.css";
 
 const Home = () => {
   return (
     <div
-      className=""
-      style={{
-        backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(100,100,200,0.6)), url("${bannerImage}")`,
-        backgroundRepeat: "no-repeat",
-      }}
+      className="home-content"
+      // style={{
+      //   backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(100,100,200,0.6)), url("${bannerImage}")`,
+      //   backgroundRepeat: "no-repeat",
+      // }}
     >
       {/* <Navbar></Navbar> */}
       <Banner></Banner>
