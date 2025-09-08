@@ -6,9 +6,7 @@ const Root = () => {
   return (
     <div>
       <Outlet></Outlet>
-      <div className="bg-[#F5F5F5]">
-        <Footer></Footer>
-      </div>
+      <div className="bg-[#F5F5F5]">{/* <Footer></Footer> */}</div>
     </div>
   );
 };

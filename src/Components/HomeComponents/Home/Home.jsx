@@ -19,7 +19,7 @@ const Home = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Banner></Banner>
       {/* <div className="bg-gray-50">
         <AboutUs></AboutUs>
