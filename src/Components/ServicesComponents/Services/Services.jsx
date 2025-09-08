@@ -1,19 +1,14 @@
 import servicesImg from "../../../assets/images/serviceBgImg.jpg";
 import ServicesCard from "../ServicesCard/ServicesCard";
 import ServicesHomeTitle from "../ServicesTitle/ServicesHomeTitle";
+import "../../HomeComponents/Home/Home.css";
 
 const Services = () => {
   return (
-    <div
-      className=""
-      style={{
-        backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${servicesImg})`,
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className="max-w-7xl mx-auto w-full flex justify-between gap-10 py-28 relative items-start">
+    <div className="service-banner">
+      <div className="max-w-7xl mx-auto w-full lg:flex justify-between lg:gap-10 lg:py-28 py-14 relative items-start px-4 lg:px-0">
         <ServicesHomeTitle></ServicesHomeTitle>
-        <ServicesCard></ServicesCard>
+        {/* <ServicesCard></ServicesCard> */}
       </div>
     </div>
   );

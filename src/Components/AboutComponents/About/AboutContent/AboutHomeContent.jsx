@@ -45,7 +45,7 @@ const AboutHomeContent = () => {
 
         {/* About Highlight Icons */}
         <AboutHighlight></AboutHighlight>
-        <div>
+        <div className="block lg:hidden">
           <AboutHomeButton></AboutHomeButton>
         </div>
       </div>

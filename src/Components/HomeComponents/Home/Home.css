@@ -7,6 +7,14 @@
   background-repeat: no-repeat;
 }
 
+.service-banner {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(200, 200, 255, 0.6)
+    ),
+    url("../../../assets/images/serviceBgImg.jpg");
+}
+
 @media (max-width: 640px) {
   .home-content {
     background-image: linear-gradient(
@@ -15,5 +23,13 @@
       ),
       url("../../../assets/banner/bannerResponsive.jpg");
     background-repeat: no-repeat;
+  }
+
+  .service-banner {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(200, 200, 255, 0.6)
+      ),
+      url("../../../assets/images/servicebgResponsive.jpg");
   }
 }

@@ -15,14 +15,16 @@ const Home = () => {
   return (
     <div>
       <div className="home-content">
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
         <Banner></Banner>
       </div>
       <div className="bg-gray-50">
         <AboutUs></AboutUs>
       </div>
-      {/* <Services></Services>
-      <div className="bg-gray-50">
+      <div>
+        <Services></Services>
+      </div>
+      {/* <div className="bg-gray-50">
         <Team></Team>
         <Testimonial></Testimonial>
       </div>
