@@ -8,7 +8,7 @@ const Team = () => {
         <div className="lg:w-8/12">
           <TeamHomeContent></TeamHomeContent>
         </div>
-        <div className="lg:w-4/12 relative lg:h-[485px]">
+        <div className="lg:w-4/12 lg:h-[485px]">
           <TeamHomeTitle></TeamHomeTitle>
         </div>
       </div>
