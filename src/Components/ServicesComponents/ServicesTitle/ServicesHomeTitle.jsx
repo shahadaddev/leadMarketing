@@ -2,8 +2,8 @@ import ServicesHomeButton from "../ServicesButton/ServicesHomeButton";
 
 const ServicesHomeTitle = () => {
   return (
-    <div className="w-4/12">
-      <h2 className="xl:text-[80px] lg:text-7xl text-6xl font-black uppercase xl:leading-17 lg:leading-14 leading-12 text-gray-700">
+    <div className="w-4/12 sticky top-8">
+      <h2 className="xl:text-[80px] lg:text-7xl text-6xl font-black uppercase xl:leading-17 lg:leading-14 leading-12 text-gray-700 mt-4">
         One <br /> Stop <br /> <i className="text-[#F40026]">Business</i> <br />{" "}
         Solution
       </h2>{" "}
