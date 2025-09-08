@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 const BannerButton = () => {
   return (
-    <div className="flex justify-center gap-8 mt-24">
+    <div className="flex justify-center gap-8 py-16">
       <div>
         <NavLink to={"/contact"}>
           <h3 className="text-lg font-bold bg-[#F40026] text-white px-10 py-4 rounded-xl flex items-center justify-center cursor-pointer hover:bg-white/30 hover:backdrop-blur-md border-2 border-[#F40026] hover:text-[#F40026] transition-all duration-1000 hover-container w-72">

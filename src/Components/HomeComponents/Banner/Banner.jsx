@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="max-w-7xl mx-auto xl:my-16 lg:my-14 text-gray-700">
       <BannerTitle></BannerTitle>
       <BannerContent></BannerContent>
-      {/* <BannerButton></BannerButton> */}
+      <BannerButton></BannerButton>
     </div>
   );
 };
