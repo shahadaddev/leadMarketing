@@ -28,17 +28,17 @@ const Home = () => {
         <Team></Team>
         <Testimonial></Testimonial>
       </div>
-      {/* <div
+      <div
         className="h-fit"
         style={{
           backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${questionBg})`,
           backgroundRepeat: "no-repeat",
         }}
       >
-        <PartnerCompany></PartnerCompany>
-        <FrequentlyQuestion></FrequentlyQuestion>
+        {/* <PartnerCompany></PartnerCompany> */}
+        {/* <FrequentlyQuestion></FrequentlyQuestion> */}
       </div>
-      <ContactForm></ContactForm> */}
+      {/* <ContactForm></ContactForm> */}
     </div>
   );
 };

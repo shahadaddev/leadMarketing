@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import logo from "../../../assets/logo/logo2.png";
+import FooterSocial from "../FooterSocial";
 
 const FooterContent = () => {
   return (
@@ -37,6 +38,9 @@ const FooterContent = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-4">
+          <FooterSocial></FooterSocial>
         </div>
       </div>
     </div>

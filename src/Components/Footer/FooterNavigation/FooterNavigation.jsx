@@ -3,8 +3,11 @@ import { NavLink } from "react-router";
 const FooterNavigation = () => {
   return (
     <div className="text-gray-700 space-y-4 py-4">
-      <div className="flex justify-center">
-        <ul className="flex gap-8">
+      <div className="flex flex-col justify-center items-center">
+        <h5 className="lg:hidden block text-2xl font-extrabold pb-2">
+          Company
+        </h5>
+        <ul className="lg:flex justify-center gap-8 text-center text-gray-500">
           <NavLink>
             <li className="text-lg font-bold hover:text-[#F40026]">About Us</li>
           </NavLink>
@@ -22,8 +25,9 @@ const FooterNavigation = () => {
           </NavLink>
         </ul>
       </div>
-      <div className="flex justify-center">
-        <ul className="flex justify-center gap-8">
+      <div className="flex flex-col justify-center items-center">
+        <h5 className="lg:hidden block text-2xl font-extrabold pb-2">Legal</h5>
+        <ul className="lg:flex justify-center gap-8 text-center text-gray-500">
           <NavLink>
             <li className="text-lg font-bold hover:text-[#F40026]">
               Privacy Policy
