@@ -1,5 +1,6 @@
 import AboutUs from "../../AboutComponents/About/AboutUs";
 import ContactForm from "../../ContactComponents/ContactHome/ContactForm";
+import FrequentlyQuestion from "../../FreqeuentlyQuestion/FrequentlyQuestion";
 import Services from "../../ServicesComponents/Services/Services";
 import Team from "../../TeamComponents/Team/Team";
 import Testimonial from "../../Testimonial/Testimonial/Testimonial";
@@ -17,6 +18,7 @@ const Home = () => {
         <Team></Team>
         <Testimonial></Testimonial>
       </div>
+      <FrequentlyQuestion></FrequentlyQuestion>
       <ContactForm></ContactForm>
     </div>
   );

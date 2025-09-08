@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="max-w-7xl mx-auto">
       <div className="flex justify-between items-center">
         <div className="w-2/12">
-          <NavLink>
+          <NavLink to={"/"}>
             <img
               src={logo}
               alt="Lead Marketing Global Logo"
