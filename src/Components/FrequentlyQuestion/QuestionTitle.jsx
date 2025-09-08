@@ -5,7 +5,7 @@ const QuestionTitle = () => {
   return (
     <div className="w-5/12 sticky top-8">
       <div className="space-y-5">
-        <h5 className="flex items-center justify-center gap-1 bg-emerald-100 w-[280px] py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-medium">
+        <h5 className="flex items-center justify-center gap-1 bg-emerald-100 w-[280px] py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-semibold">
           {" "}
           <HiBadgeCheck className="text-2xl" />
           Frequently asked questions
