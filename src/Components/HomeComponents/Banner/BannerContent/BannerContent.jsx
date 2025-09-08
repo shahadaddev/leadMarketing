@@ -4,14 +4,14 @@ import BannerIcons from "../BannerIcons/BannerIcons";
 const BannerContent = () => {
   return (
     <div>
-      <section className="flex justify-between gap-20 mt-16">
-        <div className="space-y-4">
-          <h5 className="flex items-center gap-1 bg-emerald-100 w-4/12 px-5 py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-bold">
+      <section className="xl:flex xl:justify-between xl:gap-20 xl:mt-16 lg:mt-14 space-y-12">
+        <div className="space-y-4 w-2/3 mx-auto">
+          <h5 className="flex items-center gap-1 bg-emerald-100 xl:w-4/12 lg:w-[200px] text-sm px-5 py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-bold">
             {" "}
-            <HiBadgeCheck className="text-2xl" />
+            <HiBadgeCheck className="xl:text-2xl lg:text-xl" />
             Trusted Worldwide
           </h5>
-          <p className="text-2xl font-medium  leading-7 text-justify">
+          <p className="xl:text-2xl lg:text-xl font-medium xl:leading-7 leading-[26px] text-justify">
             Lead Marketing Inc. is a full-service marketing and communications
             agency serving worldwide from Canada. This is the global venture of
             Lead Bangladesh Ltd, a full-service marketing agency with{" "}
@@ -20,19 +20,21 @@ const BannerContent = () => {
           </p>
           <BannerIcons></BannerIcons>
         </div>
-        {/* <div className="">
-          <iframe
-            className="rounded-xl"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/-Ru_Zij9cRw?si=7sGFH1ZHRa2BoXrJ&autoplay=1&mute=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div> */}
+        <div className="flex justify-center">
+          <div className="">
+            <iframe
+              className="rounded-xl"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-Ru_Zij9cRw?si=7sGFH1ZHRa2BoXrJ&autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </section>
     </div>
   );

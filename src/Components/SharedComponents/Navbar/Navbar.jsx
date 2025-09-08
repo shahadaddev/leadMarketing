@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
 
       {/* Horizontal Line */}
-      <hr className="text-gray-300 max-w-5xl mx-auto" />
+      <hr className="text-gray-400 xl:max-w-5xl lg:max-w-4xl mx-auto" />
     </div>
   );
 };
