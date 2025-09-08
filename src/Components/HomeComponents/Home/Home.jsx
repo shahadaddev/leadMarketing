@@ -24,11 +24,11 @@ const Home = () => {
       <div>
         <Services></Services>
       </div>
-      {/* <div className="bg-gray-50">
+      <div className="bg-gray-50">
         <Team></Team>
-        <Testimonial></Testimonial>
+        {/* <Testimonial></Testimonial> */}
       </div>
-      <div
+      {/* <div
         className="h-fit"
         style={{
           backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${questionBg})`,

@@ -3,10 +3,10 @@ import { TbCode } from "react-icons/tb";
 
 const ServicesCard = () => {
   return (
-    <div className="w-8/12 text-gray-700">
-      <div className="grid grid-cols-3 gap-4">
+    <div className="lg:w-8/12 text-gray-700">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 pt-12 lg:pt-0">
         {/* Card One */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -31,7 +31,7 @@ const ServicesCard = () => {
 
         {/* Card Two */}
 
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -56,7 +56,7 @@ const ServicesCard = () => {
 
         {/* Card Three */}
 
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -80,7 +80,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Four */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -104,7 +104,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Five */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -128,7 +128,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Six */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -152,7 +152,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Seven */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -176,7 +176,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Eight */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>
@@ -200,7 +200,7 @@ const ServicesCard = () => {
         </div>
 
         {/* Card Nine */}
-        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative w-[260px] h-[340px]">
+        <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
           <div>
             <TbCode className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
           </div>

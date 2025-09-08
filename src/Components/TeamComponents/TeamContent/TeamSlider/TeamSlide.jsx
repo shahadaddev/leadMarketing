@@ -81,23 +81,42 @@ const TeamSlide = () => {
         style={{
           borderRadius: "12px",
         }}
+        breakpoints={{
+          // when window width is >= 320px (phones)
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is >= 640px (small tablets)
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >= 1024px (desktop)
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
       >
         {teamSlider.map((team, index) => (
           <SwiperSlide key={team.id} virtualIndex={index}>
-            <div className="cursor-pointer relative h-80 w-[280px]">
-              <img className="rounded-xl" src={team.img} alt="" />
-              <div
-                className="absolute inset-0 rounded-lg
+            <div className="lg:block flex justify-center">
+              <div className="cursor-pointer relative lg:h-80 lg:w-[280px] w-fit">
+                <img className="rounded-xl" src={team.img} alt="" />
+                <div
+                  className="absolute inset-0 rounded-lg
               bg-gradient-to-t from-black/90
               via-black/20 to-white/10"
-              ></div>
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center w-full">
-                <h5 className="text-white/80 text-lg font-bold flex justify-center">
-                  {team.title}
-                </h5>
-                <p className="text-white/65 font-medium flex justify-center">
-                  {team.Designation}
-                </p>
+                ></div>
+                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center w-full">
+                  <h5 className="text-white/80 text-lg font-bold flex justify-center">
+                    {team.title}
+                  </h5>
+                  <p className="text-white/65 font-medium flex justify-center">
+                    {team.Designation}
+                  </p>
+                </div>
               </div>
             </div>
           </SwiperSlide>

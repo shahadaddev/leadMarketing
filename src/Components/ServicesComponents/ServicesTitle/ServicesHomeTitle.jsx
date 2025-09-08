@@ -3,19 +3,21 @@ import ServicesHomeButton from "../ServicesButton/ServicesHomeButton";
 
 const ServicesHomeTitle = () => {
   return (
-    <div className="lg:w-4/12 sticky top-8">
+    <div className="lg:w-4/12 lg:sticky top-8">
       <div className="lg:space-y-8 space-y-6">
         <div className="space-y-4">
-          <div className="flex justify-center lg:flex-none">
-            <h5 className="flex items-center justify-center gap-1 bg-emerald-100 w-[180px] py-2 rounded-full text-emerald-600 border-1 border-emerald-600 font-semibold">
-              {" "}
-              <HiBadgeCheck className="text-2xl" />
-              Our Services
-            </h5>
-          </div>
-          <h2 className="xl:text-[80px] lg:text-7xl text-[55px] font-black uppercase xl:leading-17 lg:leading-14 leading-11 text-gray-700 lg:text-start text-center">
+          <h5 className="flex items-center justify-center gap-1 bg-emerald-100 lg:w-[180px] w-[140px] lg:py-2 py-1 rounded-full text-emerald-600 border-1 border-emerald-600 font-semibold lg:text-md text-sm">
+            {" "}
+            <HiBadgeCheck className="lg:text-2xl text-lg" />
+            Our Services
+          </h5>
+
+          {/* ----------
+          Services Title
+          ----------- */}
+          <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-17 lg:leading-14 leading-9 text-gray-700">
             One <br className="hidden lg:block" /> Stop <br />{" "}
-            <i className="text-[#F40026]">Business</i> <br /> Solution
+            <span className="text-[#F40026]">Business</span> <br /> Solution
           </h2>
         </div>
         <p className="text-justify lg:text-lg w-full">
