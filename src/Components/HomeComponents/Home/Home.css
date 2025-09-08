@@ -4,6 +4,7 @@
       rgba(100, 100, 200, 0.6)
     ),
     url("../../../assets/banner/bannerImg.jpeg");
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 640px) {
@@ -13,5 +14,6 @@
         rgba(100, 100, 200, 0.6)
       ),
       url("../../../assets/banner/bannerResponsive.jpg");
+    background-repeat: no-repeat;
   }
 }

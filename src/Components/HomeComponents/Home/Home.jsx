@@ -13,19 +13,15 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div
-      className="home-content"
-      // style={{
-      //   backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(100,100,200,0.6)), url("${bannerImage}")`,
-      //   backgroundRepeat: "no-repeat",
-      // }}
-    >
-      {/* <Navbar></Navbar> */}
-      <Banner></Banner>
-      {/* <div className="bg-gray-50">
+    <div>
+      <div className="home-content">
+        <Navbar></Navbar>
+        <Banner></Banner>
+      </div>
+      <div className="bg-gray-50">
         <AboutUs></AboutUs>
       </div>
-      <Services></Services>
+      {/* <Services></Services>
       <div className="bg-gray-50">
         <Team></Team>
         <Testimonial></Testimonial>
