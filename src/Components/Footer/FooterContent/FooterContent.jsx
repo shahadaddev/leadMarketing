@@ -8,7 +8,7 @@ const FooterContent = () => {
       <div>
         <div className="flex-col items-center justify-center">
           <div className="flex justify-center">
-            <img className="w-1/2" src={logo} alt="" />
+            <img className="lg:w-1/2" src={logo} alt="" />
           </div>
           <div className="flex justify-center text-center">
             <div>
