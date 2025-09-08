@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const QuestionContact = () => {
   return (
     <div className="pt-[200px]">
-      <div className="bg-white/30 backdrop-blur-2xl p-8 rounded-xl space-y-8">
+      <div className="bg-white/30 backdrop-blur-2xl p-8 rounded-xl space-y-8 shadow-xl">
         <h3 className="text-[40px] font-medium">Still have a questions?</h3>
         <p className="text-gray-700 text-lg">
           Can't find the answer to your questions? Send us an email and we'll
