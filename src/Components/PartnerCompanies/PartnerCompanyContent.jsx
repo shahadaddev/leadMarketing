@@ -1,5 +1,5 @@
 import companyOne from "../../assets/images/lead_event.webp";
-import companyTwo from "../../assets/images/lead_event.webp";
+import companyTwo from "../../assets/images/leadBangladesh.jpg";
 import companyThree from "../../assets/images/wfa.webp";
 
 const PartnerCompanyContent = () => {

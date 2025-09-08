@@ -7,10 +7,19 @@ import Team from "../../TeamComponents/Team/Team";
 import Testimonial from "../../Testimonial/Testimonial/Testimonial";
 import Banner from "../Banner/Banner";
 import questionBg from "../../../assets/images/questionBg.JPG";
+import Navbar from "../../SharedComponents/Navbar/Navbar";
+import bannerImage from "../../../assets/banner/bannerImg.jpeg";
 
 const Home = () => {
   return (
-    <div className="">
+    <div
+      className=""
+      style={{
+        backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(100,100,200,0.6)), url("${bannerImage}")`,
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <Navbar></Navbar>
       <Banner></Banner>
       <div className="bg-gray-50">
         <AboutUs></AboutUs>
