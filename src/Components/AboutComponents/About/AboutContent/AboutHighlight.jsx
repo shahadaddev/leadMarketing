@@ -4,7 +4,7 @@ import { HiMiniTrophy } from "react-icons/hi2";
 
 const AboutHighlight = () => {
   return (
-    <div className="w-4/12 flex justify-center">
+    <div className="lg:w-4/12 flex justify-center lg:py-0 py-12">
       <div className="space-y-8">
         <div className="flex flex-col justify-center items-center bg-white shadow-2xl w-52 py-4 rounded-2xl space-y-2 h-36">
           <HiMiniTrophy className="mt-0.5 text-5xl text-emerald-400 bg-emerald-100 rounded-full px-3" />

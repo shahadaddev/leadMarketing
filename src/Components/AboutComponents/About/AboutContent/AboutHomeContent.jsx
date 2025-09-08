@@ -5,7 +5,7 @@ import AboutHomeButton from "../AboutButton/AboutHomeButton";
 const AboutHomeContent = () => {
   return (
     <div>
-      <div className="w-full mt-16 mb-8 flex items-start justify-between gap-8">
+      <div className="w-full mt-16 mb-8 lg:flex items-start justify-between gap-8">
         {/* ------------ About Us Details ------------- */}
         <section className="lg:w-8/12 lg:pt-0 pt-4">
           <div className="lg:p-8 px-5 pt-12 rounded-xl text-gray-700 border-t-2 border-l-2 border-[#F40026] relative">
@@ -38,11 +38,16 @@ const AboutHomeContent = () => {
           </div>
 
           {/* Explore About Button */}
-          <AboutHomeButton></AboutHomeButton>
+          <div className="lg:block hidden">
+            <AboutHomeButton></AboutHomeButton>
+          </div>
         </section>
 
         {/* About Highlight Icons */}
-        {/* <AboutHighlight></AboutHighlight> */}
+        <AboutHighlight></AboutHighlight>
+        <div>
+          <AboutHomeButton></AboutHomeButton>
+        </div>
       </div>
     </div>
   );
