@@ -19,8 +19,11 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl xl:mx-auto lg:mx-4">
       <div className="flex justify-between items-center">
+        {/* 
+        Lead Marketing Logo
+        */}
         <div className="w-2/12">
           <NavLink to={"/"}>
             <img
@@ -30,8 +33,11 @@ const Navbar = () => {
             />
           </NavLink>
         </div>
+
+        {/* 
+        Navigation Menu */}
         <div className="w-8/12 flex justify-center">
-          <ul className="flex gap-10">
+          <ul className="flex xl:gap-10 lg:gap-6">
             {navigation.map((nav, index) => (
               <NavLink className={navigationStyle} key={index} to={nav.link}>
                 <li className="text-lg font-bold">{nav.name}</li>
@@ -39,15 +45,20 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+
+        {/* 
+        Let's Talk Button */}
         <div className="w-2/12 flex justify-center">
           <NavLink to={"/contactForm"}>
-            <button className="flex items-center gap-2 bg-[#F40026] hover:bg-white text-white hover:text-[#F40026] border-2 border-[#F40026] text-lg font-bold px-8 py-3 rounded-xl cursor-pointer transition-all duration-500">
+            <button className="flex items-center gap-2 bg-[#F40026] hover:bg-white text-white hover:text-[#F40026] border-2 border-[#F40026] text-lg font-bold xl:px-8 lg:px-6 py-3 rounded-xl cursor-pointer transition-all duration-500">
               <IoCall className="text-xl" />
               Let's Talk
             </button>
           </NavLink>
         </div>
       </div>
+
+      {/* Horizontal Line */}
       <hr className="text-gray-300 max-w-5xl mx-auto" />
     </div>
   );

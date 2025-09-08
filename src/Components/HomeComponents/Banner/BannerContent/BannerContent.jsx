@@ -20,7 +20,7 @@ const BannerContent = () => {
           </p>
           <BannerIcons></BannerIcons>
         </div>
-        <div className="">
+        {/* <div className="">
           <iframe
             className="rounded-xl"
             width="560"
@@ -32,7 +32,7 @@ const BannerContent = () => {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
       </section>
     </div>
   );

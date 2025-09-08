@@ -5,7 +5,7 @@ const FooterRights = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className="flex justify-between items-center bg-white max-w-4xl mx-auto py-2 px-5 shadow-2xl rounded-full">
+    <div className="flex justify-between items-center bg-white max-w-4xl mx-auto py-2 px-5 shadow-lg rounded-full">
       <div>
         <h5 className="font-medium">
           &copy; {year} Lead Marketing Global. All rights reserved

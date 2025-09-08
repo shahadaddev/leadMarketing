@@ -4,10 +4,9 @@ import Footer from "../Components/Footer/Footer";
 
 const Root = () => {
   return (
-    <div className="font-content">
-      {/* <Navbar></Navbar> */}
+    <div>
       <Outlet></Outlet>
-      <div className="bg-gray-50">
+      <div className="bg-[#F5F5F5]">
         <Footer></Footer>
       </div>
     </div>

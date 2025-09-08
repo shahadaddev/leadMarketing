@@ -21,7 +21,7 @@ const Home = () => {
     >
       <Navbar></Navbar>
       <Banner></Banner>
-      <div className="bg-gray-50">
+      {/* <div className="bg-gray-50">
         <AboutUs></AboutUs>
       </div>
       <Services></Services>
@@ -39,7 +39,7 @@ const Home = () => {
         <PartnerCompany></PartnerCompany>
         <FrequentlyQuestion></FrequentlyQuestion>
       </div>
-      <ContactForm></ContactForm>
+      <ContactForm></ContactForm> */}
     </div>
   );
 };

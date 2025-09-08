@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <div className="max-w-7xl mx-auto my-16 text-gray-700">
       <BannerTitle></BannerTitle>
-      <BannerContent></BannerContent>
-      <BannerButton></BannerButton>
+      {/* <BannerContent></BannerContent>
+      <BannerButton></BannerButton> */}
     </div>
   );
 };
