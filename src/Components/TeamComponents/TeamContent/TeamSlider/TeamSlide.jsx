@@ -12,12 +12,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import memberOne from "../../../../assets/team/teamMemberOne.jpg";
-import memberTwo from "../../../../assets/team/teamMemberTwo.jpg";
-import memberThree from "../../../../assets/team/teamMemberThree.jpg";
-import memberFour from "../../../../assets/team/teamMemberFour.jpg";
-import memberFive from "../../../../assets/team/teamMemberFive.jpg";
-import memberSix from "../../../../assets/team/teamMemberSix.jpg";
-import memberSeven from "../../../../assets/team/teamMemberSeven.jpg";
+import memberTwo from "../../../../assets/team/TeamMemberTwo.jpg";
+import memberThree from "../../../../assets/team/TeamMemberThree.jpg";
+import memberFour from "../../../../assets/team/TeamMemberFour.jpg";
+import memberFive from "../../../../assets/team/TeamMemberFive.jpg";
+import memberSix from "../../../../assets/team/TeamMemberSix.jpg";
+import memberSeven from "../../../../assets/team/TeamMemberSeven.jpg";
 
 const TeamSlide = () => {
   const teamSlider = [
