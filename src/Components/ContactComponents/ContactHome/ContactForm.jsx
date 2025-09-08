@@ -6,7 +6,7 @@ import ContactTitle from "../ContactTitle/ContactTitle";
 const ContactForm = () => {
   return (
     <div
-      className="h-screen py-20 text-gray-700"
+      className="py-20 text-gray-700"
       style={{
         backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${formBg})`,
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ const ContactForm = () => {
         <div>
           <ContactTitle></ContactTitle>
         </div>
-        <section className="bg-white/30 backdrop-blur-xl rounded-3xl px-10 py-20 flex justify-center gap-12 w-5/6 mx-auto mt-20">
+        <section className="bg-white/30 backdrop-blur-xl shadow-2xl rounded-3xl px-10 py-20 flex justify-center gap-12 w-5/6 mx-auto mt-20">
           <ContactContent></ContactContent>
 
           {/* Form */}

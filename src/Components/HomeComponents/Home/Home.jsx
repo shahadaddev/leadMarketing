@@ -1,6 +1,6 @@
 import AboutUs from "../../AboutComponents/About/AboutUs";
 import ContactForm from "../../ContactComponents/ContactHome/ContactForm";
-import FrequentlyQuestion from "../../FreqeuentlyQuestion/FrequentlyQuestion";
+import FrequentlyQuestion from "../../FrequentlyQuestion/FrequentlyQuestion";
 import PartnerCompany from "../../PartnerCompanies/PartnerCompany";
 import Services from "../../ServicesComponents/Services/Services";
 import Team from "../../TeamComponents/Team/Team";
