@@ -3,7 +3,7 @@ import ServicesHomeButton from "../ServicesButton/ServicesHomeButton";
 
 const ServicesHomeTitle = () => {
   return (
-    <div className="lg:w-4/12 lg:sticky top-8">
+    <div className="xl:w-4/12 lg:w-5/12 lg:sticky top-8">
       <div className="lg:space-y-8 space-y-6">
         <div className="space-y-4">
           <h5 className="flex items-center justify-center gap-1 bg-emerald-100 lg:w-[180px] w-[140px] lg:py-2 py-1 rounded-full text-emerald-600 border-1 border-emerald-600 font-semibold lg:text-md text-sm">
@@ -15,7 +15,7 @@ const ServicesHomeTitle = () => {
           {/* ----------
           Services Title
           ----------- */}
-          <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-17 lg:leading-14 leading-9 text-gray-700">
+          <h2 className="xl:text-[80px] lg:text-[66px] text-5xl font-black uppercase xl:leading-17 lg:leading-13 leading-9 text-gray-700">
             One <br className="hidden lg:block" /> Stop <br />{" "}
             <span className="text-[#F40026]">Business</span> <br /> Solution
           </h2>

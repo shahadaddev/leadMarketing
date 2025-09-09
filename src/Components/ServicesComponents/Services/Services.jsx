@@ -6,7 +6,7 @@ import "../../HomeComponents/Home/Home.css";
 const Services = () => {
   return (
     <div className="service-banner">
-      <div className="max-w-7xl mx-auto w-full lg:flex justify-between lg:gap-10 lg:py-28 py-14 lg:relative items-start px-4 lg:px-0">
+      <div className="max-w-7xl mx-auto w-full lg:flex justify-between xl:gap-10 lg:gap-7 xl:py-28 lg:py-20 py-14 lg:relative items-start px-4 lg:px-8">
         <ServicesHomeTitle></ServicesHomeTitle>
         <ServicesCard></ServicesCard>
       </div>

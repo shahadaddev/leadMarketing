@@ -3,7 +3,7 @@ import { TbCode } from "react-icons/tb";
 
 const ServicesCard = () => {
   return (
-    <div className="lg:w-8/12 text-gray-700">
+    <div className="xl:w-8/12 lg:w-7/12 text-gray-700">
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 pt-12 lg:pt-0">
         {/* Card One */}
         <div className="bg-white/30 backdrop-blur-xs rounded-xl px-8 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto h-[340px]">
