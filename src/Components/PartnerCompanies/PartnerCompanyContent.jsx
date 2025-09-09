@@ -4,17 +4,17 @@ import companyThree from "../../assets/images/wfa.webp";
 
 const PartnerCompanyContent = () => {
   return (
-    <div className="mt-20">
-      <div className="flex justify-center gap-12">
+    <div className="lg:mt-20 mt-14">
+      <div className="lg:flex justify-center gap-12 space-y-8 lg:space-y-0">
         {/* Company One */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl h-[620px] mt-36 shadow-xl"
+        rounded-2xl lg:h-[620px] lg:mt-36 lg:shadow-xl shadow-lg"
         >
           <div className="p-4">
             <img src={companyOne} className="rounded-xl" alt="" />
           </div>
-          <div className="px-8 pb-6 py-4 w-[380px] space-y-4">
+          <div className="px-8 pb-6 py-4 lg:w-[380px] space-y-4">
             <h4 className="text-2xl font-extrabold">Lead Event</h4>
             <p className="text-justify">
               As a vital member of the Lead Bangladesh Group, Lead Eventz
@@ -32,12 +32,12 @@ const PartnerCompanyContent = () => {
         {/* Company Two */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl h-[640px] shadow-xl"
+        rounded-2xl lg:h-[640px] shadow-xl"
         >
           <div className="p-4">
             <img src={companyTwo} className="rounded-xl" alt="" />
           </div>
-          <div className="px-8 pb-6 py-4 w-[380px] space-y-4">
+          <div className=" px-8 pb-6 py-4 lg:w-[380px] space-y-4">
             <h4 className="text-2xl font-extrabold">Lead Bangladesh</h4>
             <p className="text-justify">
               Lead Marketing Inc. serves as a full-service marketing and
@@ -56,12 +56,12 @@ const PartnerCompanyContent = () => {
         {/* Card Three */}
         <div
           className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl h-[620px] mt-36 shadow-xl"
+        rounded-2xl lg:h-[620px] lg:mt-36 shadow-xl"
         >
           <div className="p-4">
             <img src={companyThree} className="rounded-xl" alt="" />
           </div>
-          <div className="px-8 pb-6 py-4 w-[380px] space-y-4">
+          <div className="px-8 pb-6 py-4 lg:w-[380px] space-y-4">
             <h4 className="text-2xl font-extrabold">Web For All</h4>
             <p className="text-justify">
               Web For All focuses on turning digital aspirations into engaging

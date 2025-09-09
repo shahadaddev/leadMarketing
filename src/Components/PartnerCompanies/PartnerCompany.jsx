@@ -7,7 +7,7 @@ const PartnerCompany = () => {
     <div className="text-gray-700 lg:pt-28 pt-14 lg:pb-24 pb-12 max-w-7xl mx-auto px-4 lg:px-0">
       <div>
         <PartnerCompanyTitle></PartnerCompanyTitle>
-        {/* <PartnerCompanyContent></PartnerCompanyContent> */}
+        <PartnerCompanyContent></PartnerCompanyContent>
       </div>
     </div>
   );
