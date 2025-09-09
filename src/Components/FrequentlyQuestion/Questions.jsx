@@ -1,9 +1,9 @@
 const Questions = () => {
   return (
-    <div className="w-6/12 space-y-14 mt-14">
+    <div className="lg:w-6/12 space-y-14 lg:mt-14">
       {/* Subtitle */}
       <div>
-        <p className="text-justify text-lg">
+        <p className="text-justify text-lg text-gray-800">
           At Lead Marketing Inc., we provide a full spectrum From branding to
           digital marketing, we offer innovative solutions that elevate your
           brand and deliver measurable results. Discover how we can turn your
@@ -17,7 +17,7 @@ const Questions = () => {
 
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             What services does Lead Marketing offer?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -43,7 +43,7 @@ const Questions = () => {
         {/* Q-Two */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             What industries has Lead Bangladesh worked with?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -73,7 +73,7 @@ const Questions = () => {
         {/* Q-Three */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             How can I request a quote or consultation?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -93,7 +93,7 @@ const Questions = () => {
         {/* Q-Four */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             Does Lead Bangladesh offer campaign planning and execution?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -109,7 +109,7 @@ const Questions = () => {
         {/* Q-Five */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             Do you offer digital services only, or offline as well?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -130,7 +130,7 @@ const Questions = () => {
         {/* Q-Six */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             Do you offer product photography and commercial video services?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -152,7 +152,7 @@ const Questions = () => {
         {/* Q-Seven */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             What sets Lead Bangladesh apart from other agencies?
           </div>
           <div className="collapse-content text-sm space-y-2">
@@ -173,7 +173,7 @@ const Questions = () => {
         {/* Q-Eight */}
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-bold text-xl">
+          <div className="collapse-title font-bold lg:text-xl text-md">
             Do you provide post-project support or ongoing retainer services?
           </div>
           <div className="collapse-content text-sm space-y-2">

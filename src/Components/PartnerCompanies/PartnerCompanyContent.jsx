@@ -5,7 +5,7 @@ import companyThree from "../../assets/images/wfa.webp";
 const PartnerCompanyContent = () => {
   return (
     <div className="lg:mt-20 mt-14">
-      <div className="lg:flex justify-center gap-12 space-y-8 lg:space-y-0">
+      <div className="lg:flex justify-center gap-12 space-y-8 lg:space-y-0 px-2">
         {/* Company One */}
         <div
           className="bg-white/50 backdrop-blur-3xl
