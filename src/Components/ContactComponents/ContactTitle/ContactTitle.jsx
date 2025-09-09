@@ -3,7 +3,7 @@ import React from "react";
 const ContactTitle = () => {
   return (
     <div>
-      <h1 className="text-6xl uppercase font-black text-center leading-12">
+      <h1 className="lg:text-6xl text-5xl uppercase font-black lg:text-center lg:leading-12 leading-9">
         Let's Build <br /> <span className="text-[#F40026]">Your Brand</span>{" "}
         Together
       </h1>
