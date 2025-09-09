@@ -8,7 +8,6 @@ import Testimonial from "../../Testimonial/Testimonial/Testimonial";
 import Banner from "../Banner/Banner";
 import questionBg from "../../../assets/images/questionBg.JPG";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
-import bannerImage from "../../../assets/banner/bannerImg.jpeg";
 import "./Home.css";
 
 const Home = () => {
@@ -28,14 +27,8 @@ const Home = () => {
         <Team></Team>
         <Testimonial></Testimonial>
       </div>
-      <div
-        className="h-fit"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${questionBg})`,
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        {/* <PartnerCompany></PartnerCompany> */}
+      <div className="h-fit company-content">
+        <PartnerCompany></PartnerCompany>
         {/* <FrequentlyQuestion></FrequentlyQuestion> */}
       </div>
       {/* <ContactForm></ContactForm> */}
