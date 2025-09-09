@@ -24,7 +24,7 @@ const Home = () => {
         <Services></Services>
       </div>
       <div className="bg-gray-50">
-        {/* <Team></Team> */}
+        <Team></Team>
         {/* <Testimonial></Testimonial> */}
       </div>
       <div className="h-fit company-content">

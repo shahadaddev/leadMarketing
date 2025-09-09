@@ -15,7 +15,7 @@ const ServicesHomeTitle = () => {
           {/* ----------
           Services Title
           ----------- */}
-          <h2 className="xl:text-[80px] lg:text-[66px] text-5xl font-black uppercase xl:leading-17 lg:leading-13 leading-9 text-gray-700">
+          <h2 className="xl:text-[80px] lg:text-[66px] text-5xl font-black uppercase xl:leading-16 lg:leading-13 leading-9 text-gray-700">
             One <br className="hidden lg:block" /> Stop <br />{" "}
             <span className="text-[#F40026]">Business</span> <br /> Solution
           </h2>

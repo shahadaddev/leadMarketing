@@ -5,10 +5,10 @@ const Team = () => {
   return (
     <div className="max-w-7xl lg:mx-auto lg:py-28 py-14">
       <div className="flex lg:flex-row flex-col-reverse w-full lg:justify-between lg:items-start lg:gap-8 px-4">
-        <div className="lg:w-8/12">
+        <div className="xl:w-8/12 lg:w-7/12">
           <TeamHomeContent></TeamHomeContent>
         </div>
-        <div className="lg:w-4/12 lg:h-[485px]">
+        <div className="xl:w-4/12 lg:w-5/12 xl:h-[485px] lg:h-[584px]">
           <TeamHomeTitle></TeamHomeTitle>
         </div>
       </div>

@@ -94,15 +94,20 @@ const TeamSlide = () => {
           },
           // when window width is >= 1024px (desktop)
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30,
+          },
+          // extra large screens
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 40,
           },
         }}
       >
         {teamSlider.map((team, index) => (
           <SwiperSlide key={team.id} virtualIndex={index}>
             <div className="lg:block flex justify-center">
-              <div className="cursor-pointer relative lg:h-80 lg:w-[280px] w-fit">
+              <div className="cursor-pointer relative xl:h-80 lg:w-[280px] w-fit">
                 <img className="rounded-xl" src={team.img} alt="" />
                 <div
                   className="absolute inset-0 rounded-lg
