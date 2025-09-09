@@ -33,7 +33,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="lg:max-w-7xl xl:mx-auto lg:mx-4 w-[85%] mx-auto relative">
+    <div className="lg:max-w-7xl xl:mx-auto lg:w-full lg:px-4 w-[85%] mx-auto relative">
       <div className="flex justify-between items-center lg:py-3">
         {/* Logo */}
         <div className="md:w-2/12 w-2/6">
