@@ -24,7 +24,7 @@ const TeamSlide = () => {
     {
       id: 1,
       img: memberThree,
-      title: "Imtiaj Jehad",
+      title: "Imtiaj Jeha",
       Designation: "Founder & Marketing Consultant",
     },
     {
