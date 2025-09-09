@@ -16,14 +16,6 @@ const QuestionTitle = () => {
             Answers
           </h2>
         </div>
-        {/* <div>
-          <p className="text-justify text-lg text-gray-800 block lg:hidden">
-            At Lead Marketing Inc., we provide a full spectrum From branding to
-            digital marketing, we offer innovative solutions that elevate your
-            brand and deliver measurable results. Discover how we can turn your
-            vision into reality.
-          </p>
-        </div> */}
         <div className="lg:block hidden">
           <QuestionContact></QuestionContact>
         </div>

@@ -1,3 +1,5 @@
+import QuestionContact from "./QuestionContact";
+
 const Questions = () => {
   return (
     <div className="lg:w-6/12 space-y-14 lg:mt-14">
@@ -190,6 +192,10 @@ const Questions = () => {
             <p>We become your extended marketing arm for continued success.</p>
           </div>
         </div>
+      </div>
+
+      <div className="lg:hidden block">
+        <QuestionContact></QuestionContact>
       </div>
     </div>
   );
