@@ -2,7 +2,7 @@ import QuestionContact from "./QuestionContact";
 
 const Questions = () => {
   return (
-    <div className="lg:w-6/12 lg:space-y-0 space-y-14 lg:mt-14">
+    <div className="xl:w-6/12 lg:w-7/12 lg:space-y-0 space-y-14 lg:mt-14 lg:px-8">
       {/* Subtitle */}
       <div>
         <p className="text-justify text-lg text-gray-800">

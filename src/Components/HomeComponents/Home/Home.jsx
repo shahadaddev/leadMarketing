@@ -29,9 +29,9 @@ const Home = () => {
       </div>
       <div className="h-fit company-content">
         <PartnerCompany></PartnerCompany>
-        {/* <FrequentlyQuestion></FrequentlyQuestion> */}
+        <FrequentlyQuestion></FrequentlyQuestion>
       </div>
-      {/* <ContactForm></ContactForm> */}
+      <ContactForm></ContactForm>
     </div>
   );
 };
