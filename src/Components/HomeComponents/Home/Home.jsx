@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <div className="home-content">
-        {/* <Navbar></Navbar> */}
+        <Navbar></Navbar>
         <Banner></Banner>
       </div>
       <div className="bg-gray-50">
@@ -24,14 +24,14 @@ const Home = () => {
         <Services></Services>
       </div>
       <div className="bg-gray-50">
-        <Team></Team>
-        <Testimonial></Testimonial>
+        {/* <Team></Team> */}
+        {/* <Testimonial></Testimonial> */}
       </div>
       <div className="h-fit company-content">
-        <PartnerCompany></PartnerCompany>
-        <FrequentlyQuestion></FrequentlyQuestion>
+        {/* <PartnerCompany></PartnerCompany> */}
+        {/* <FrequentlyQuestion></FrequentlyQuestion> */}
       </div>
-      <ContactForm></ContactForm>
+      {/* <ContactForm></ContactForm> */}
     </div>
   );
 };

@@ -5,9 +5,9 @@ import AboutHomeButton from "../AboutButton/AboutHomeButton";
 const AboutHomeContent = () => {
   return (
     <div>
-      <div className="w-full mt-16 mb-8 lg:flex items-start justify-between gap-8">
+      <div className="w-full mt-16 mb-8 lg:flex xl:items-start lg:items-end justify-between xl:gap-8 lg:gap-5">
         {/* ------------ About Us Details ------------- */}
-        <section className="lg:w-8/12 lg:pt-0 pt-4">
+        <section className="xl:w-8/12 lg:w-9/12 lg:pt-0 pt-4">
           <div className="lg:p-8 px-5 pt-12 rounded-xl text-gray-700 border-t-2 border-l-2 border-[#F40026] relative">
             <p className="lg:text-xl text-lg font-medium lg:leading-7 leading-6 text-justify">
               Lead Marketing Inc. is a full-service marketing and communications
@@ -45,6 +45,11 @@ const AboutHomeContent = () => {
 
         {/* About Highlight Icons */}
         <AboutHighlight></AboutHighlight>
+
+        {/* ------------------------
+        -------------------------
+        --------------------------- */}
+
         <div className="block lg:hidden">
           <AboutHomeButton></AboutHomeButton>
         </div>

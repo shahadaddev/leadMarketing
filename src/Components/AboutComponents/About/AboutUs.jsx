@@ -4,7 +4,7 @@ import AboutHomeTitle from "./AboutTitle/AboutHomeTitle";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-7xl lg:mx-auto text-gray-700 h-fit lg:py-24 py-14 mx-4">
+    <div className="max-w-7xl xl:mx-auto text-gray-700 h-fit xl:py-24 py-14 lg:mx-8 mx-4">
       <AboutHomeTitle></AboutHomeTitle>
       <AboutHomeContent></AboutHomeContent>
     </div>
