@@ -12,8 +12,8 @@ const QuestionTitle = () => {
         </h5>
         <div className="text-left items-end flex">
           <h2 className="xl:text-[80px] lg:text-[66px] text-5xl font-black uppercase xl:leading-16 lg:leading-14 leading-9 text-gray-700">
-            Common <br /> <i className="text-[#F40026]">Questions</i> <br /> &
-            Answers
+            Common <br /> <span className="text-[#F40026]">Questions</span>{" "}
+            <br /> & Answers
           </h2>
         </div>
         <div className="lg:block hidden">
