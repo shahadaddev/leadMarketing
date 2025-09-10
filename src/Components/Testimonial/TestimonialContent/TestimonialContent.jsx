@@ -5,7 +5,7 @@ const TestimonialContent = () => {
     <div className="py-12 lg:py-0">
       <div className="flex justify-center relative lg:w-3/4 mx-auto">
         <div className="absolute lg:bottom-28 bottom-22 xl:left-56 lg:left-32 left-3 z-0">
-          <FaQuoteLeft className="lg:text-9xl text-7xl text-gray-500" />
+          <FaQuoteLeft className="lg:text-[138px] text-7xl text-gray-300" />
         </div>
         <h1 className="lg:text-6xl text-5xl uppercase font-black text-center lg:leading-13 leading-9 lg:pt-18 z-10">
           What Our <br /> <span className="text-[#F40026]">Customers</span>{" "}
@@ -16,7 +16,7 @@ const TestimonialContent = () => {
       {/* Testimonials */}
       <div className="lg:flex justify-center xl:gap-18 lg:gap-5 xl:w-3/4 mx-auto py-16 px-4 xl:px-0 lg:space-y-0 space-y-8">
         <div className="relative">
-          <div className="bg-emerald-500 shadow-xl lg:px-10 p-5 lg:py-10 rounded-t-4xl rounded-bl-[90px] xl:w-[500px] lg:w-[480px] text-white/90 lg:h-72 h-80">
+          <div className="bg-[#18105E] shadow-xl lg:px-10 p-5 lg:py-10 rounded-t-4xl rounded-bl-[90px] xl:w-[500px] lg:w-[480px] text-white/90 lg:h-72 h-80">
             <p className="text-justify font-medium">
               Lead Bangladesh seamlessly executes our entire digital marketing
               strategy with incredible skill and expertise. Their ability to
@@ -27,7 +27,7 @@ const TestimonialContent = () => {
             </p>
           </div>
 
-          <div className="absolute bottom-2 lg:right-10 right-5 text-right text-white/85">
+          <div className="absolute bottom-2 lg:right-10 right-5 text-right text-white/90">
             <div>
               <h5 className="text-xl font-extrabold">Raul Evan</h5>
               <p>Managing Partner, Friolento</p>

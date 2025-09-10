@@ -7,8 +7,17 @@ import { IoVideocam } from "react-icons/io5";
 import { LuBrain } from "react-icons/lu";
 import { MdInsertChart, MdOutlineEventNote } from "react-icons/md";
 import { TbCode, TbTargetArrow } from "react-icons/tb";
+import { useNavigate } from "react-router";
 
 const ServicesCard = () => {
+  const [activeCard, setActiveCard] = useState(null);
+  const navigate = useNavigate();
+
+  const handleCardClick = (id) => {
+    setActiveCard(activeCard === id ? null : id);
+    navigate("/services");
+  };
+
   const services = [
     {
       id: 1,
@@ -23,7 +32,7 @@ const ServicesCard = () => {
         "SEO & Performance Optimization",
         "Ongoing Support & Maintenance",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 2,
@@ -38,7 +47,7 @@ const ServicesCard = () => {
         "Campaign Concept Development",
         "Brand Guidelines & Consistency",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 3,
@@ -53,7 +62,7 @@ const ServicesCard = () => {
         "Email Marketing & Automation",
         "Analytics & Performance Tracking",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 4,
@@ -68,7 +77,7 @@ const ServicesCard = () => {
         "Video Ads",
         "Affiliate Marketing Ads",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 5,
@@ -80,26 +89,26 @@ const ServicesCard = () => {
         "TVC, OVC, AV Production",
         "Documentary Filmmaking",
         "Music Video",
-        "Professional Photography (Product, Food, Fashion & All)",
+        "Professional Photography(Product, Fashion & All)",
         "Animation & Motion Graphics",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
-    {
-      id: 6,
-      title: "Event & Activation",
-      icon: MdOutlineEventNote,
-      description:
-        "Events create moments, activations create impact. From planning to execution, we design experiences that connect your brand with people in meaningful and memorable ways.",
-      list: [
-        "Event Strategy & Planning",
-        "Brand Activations & Launches",
-        "Corporate & Community Events",
-        "Experiential Marketing Campaigns",
-        "On-Site Managements & Execution",
-      ],
-      height: "h-[450px]",
-    },
+    // {
+    //   id: 6,
+    //   title: "Event & Activation",
+    //   icon: MdOutlineEventNote,
+    //   description:
+    //     "Events create moments, activations create impact. From planning to execution, we design experiences that connect your brand with people in meaningful and memorable ways.",
+    //   list: [
+    //     "Event Strategy & Planning",
+    //     "Brand Activations & Launches",
+    //     "Corporate & Community Events",
+    //     "Experiential Marketing Campaigns",
+    //     "On-Site Managements & Execution",
+    //   ],
+    //   height: "h-[350px]",
+    // },
     {
       id: 7,
       title: "Print & Packaging",
@@ -110,10 +119,10 @@ const ServicesCard = () => {
         "Custom Packaging Design",
         "Product Labels and Tags",
         "Marketing Collateral (Brochures, Flyers, Posters)",
-        "Corporate Stationery (Business Cards, Letterheads)",
+        "Corporate Stationery (Business Cards, etc.)",
         "High-Quality Printing Solutions",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 8,
@@ -128,7 +137,7 @@ const ServicesCard = () => {
         "Lead Nurturing & Automation",
         "Analytics & Performance Tracking",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
     {
       id: 9,
@@ -143,68 +152,13 @@ const ServicesCard = () => {
         "Campaign Strategy Development",
         "Performance Measurement & Optimization",
       ],
-      height: "h-[450px]",
+      height: "h-[350px]",
     },
   ];
 
-  const [activeCard, setActiveCard] = useState(null);
-
-  const handleCardClick = (id) => {
-    setActiveCard(activeCard === id ? null : id);
-  };
-
   return (
-    // <div className="xl:w-8/12 lg:w-7/12 text-gray-700">
-    //   <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 pt-12 lg:pt-14">
-    //     {services.map((service) => (
-    //       <div key={service.id}>
-    //         <div
-    //           className={`bg-white/30 backdrop-blur-xs rounded-xl px-5 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto ${service.height} group transition-all duration-700`}
-    //         >
-    //           {/* Icon */}
-    //           <div>
-    //             <service.icon className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
-    //           </div>
-
-    //           {/* Content */}
-    //           <div className="space-y-2">
-    //             <h4 className="text-xl font-extrabold">{service.title}</h4>
-    //             <hr className="text-gray-400" />
-
-    //             {/* paragraph (fades & slides out) */}
-    //             <p className="leading-5 font-medium opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:-translate-y-2">
-    //               {service.description}
-    //             </p>
-
-    //             {/* list (fades & slides in) */}
-    //             <div>
-    //               <ul
-    //                 className="absolute top-40 opacity-0 translate-y-3 pointer-events-none
-    //                            group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto
-    //                            list-disc list-inside transition-all duration-500 ease-in-out"
-    //               >
-    //                 {service.list.map((item, i) => (
-    //                   <li key={`${service.id}-${i}`}>{item}</li>
-    //                 ))}
-    //               </ul>
-    //             </div>
-    //           </div>
-
-    //           {/* Button */}
-    //           <div className="flex justify-center">
-    //             <button className="border-1 hover:border-gray-400 hover:bg-transparent hover:text-gray-700 px-8 py-[5px] rounded-lg font-medium cursor-pointer text-white bg-gray-700 border-gray-700 absolute bottom-5 flex items-center transition-all duration-700 hover-container">
-    //               Book Service
-    //               <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
-    //             </button>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </div>
-
     <div className="xl:w-8/12 lg:w-7/12 text-gray-700">
-      <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 pt-12 lg:pt-14">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 pt-12 lg:pt-14">
         {services.map((service) => {
           const isActive = activeCard === service.id;
 
@@ -212,11 +166,11 @@ const ServicesCard = () => {
             <div key={service.id}>
               <div
                 onClick={() => handleCardClick(service.id)}
-                className={`bg-white/30 backdrop-blur-xs rounded-xl px-5 py-5 space-y-5 relative lg:w-[260px] w-5/6 mx-auto ${service.height} group transition-all duration-700 cursor-pointer`}
+                className={`bg-white/30 backdrop-blur-xs rounded-xl px-5 py-5 space-y-5 relative  w-full mx-auto ${service.height} group transition-all duration-700 cursor-pointer`}
               >
                 {/* Icon */}
                 <div>
-                  <service.icon className="text-4xl bg-red-200 rounded-full text-[#F40026] p-1" />
+                  <service.icon className="text-[40px] bg-red-200 rounded-full text-[#F40026] p-1" />
                 </div>
 
                 {/* Content */}
@@ -226,7 +180,7 @@ const ServicesCard = () => {
 
                   {/* Paragraph */}
                   <p
-                    className={`leading-5 font-medium transition-all duration-500 ease-in-out
+                    className={`leading-5 pt-7 font-medium transition-all duration-500 ease-in-out
                                group-hover:opacity-0 group-hover:-translate-y-2
                                ${
                                  isActive
@@ -240,7 +194,7 @@ const ServicesCard = () => {
                   {/* List */}
                   <div>
                     <ul
-                      className={`absolute top-40 list-disc list-inside transition-all duration-500 ease-in-out
+                      className={`absolute top-36 text-md list-disc list-inside transition-all duration-500 ease-in-out
                                  group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto
                                  ${
                                    isActive
@@ -256,12 +210,12 @@ const ServicesCard = () => {
                 </div>
 
                 {/* Button */}
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                   <button className="border-1 hover:border-gray-400 hover:bg-transparent hover:text-gray-700 px-8 py-[5px] rounded-lg font-medium cursor-pointer text-white bg-gray-700 border-gray-700 absolute bottom-5 flex items-center transition-all duration-700 hover-container">
                     Book Service
                     <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           );
