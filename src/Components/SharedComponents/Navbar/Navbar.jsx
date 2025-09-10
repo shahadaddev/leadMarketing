@@ -94,7 +94,7 @@ const Navbar = () => {
             className="text-base font-semibold text-gray-100"
             key={index}
             to={nav.link}
-            onClick={() => setIsOpen(false)} // close menu on link click
+            onClick={() => setIsOpen(false)}
           >
             {nav.name}
           </NavLink>
