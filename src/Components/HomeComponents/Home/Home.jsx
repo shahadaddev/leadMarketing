@@ -9,7 +9,8 @@ import Banner from "../Banner/Banner";
 // import questionBg from "../../../assets/images/questionBg.JPG";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
 import "./Home.css";
-import OurWorks from "../../OurClientsComponents/OurWorks";
+import OurWorks from "../../OurWorkComponents/OurWorks";
+import OurClient from "../../OurClientComponent/OurClient";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
       </div>
       <div className="bg-gray-50">
         <OurWorks></OurWorks>
-        {/* <OurClient></OurClient> */}
+        <OurClient></OurClient>
         <Testimonial></Testimonial>
         <Team></Team>
       </div>

@@ -8,8 +8,8 @@ const TestimonialContent = () => {
           <FaQuoteLeft className="lg:text-[138px] text-7xl text-gray-300" />
         </div>
         <h1 className="lg:text-6xl text-5xl uppercase font-black text-center lg:leading-13 leading-9 lg:pt-18 z-10">
-          What Our <br /> <span className="text-[#F40026]">Customers</span>{" "}
-          <br /> Are Saying
+          What Our <br /> <span className="text-[#F40026]">Clients</span> <br />{" "}
+          Are Saying
         </h1>
       </div>
 

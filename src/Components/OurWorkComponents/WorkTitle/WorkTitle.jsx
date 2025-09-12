@@ -1,6 +1,5 @@
-import React from "react";
-import WorksButtonHome from "../../OurWorksComponents/WorksButton/WorksButtonHome";
 import { HiBadgeCheck } from "react-icons/hi";
+import WorkHomeButton from "../WorkButtons/WorkHomeButton";
 
 const WorkTitle = () => {
   return (
@@ -27,7 +26,7 @@ const WorkTitle = () => {
             and thrives in a competitive market.
           </p>
         </div>
-        <WorksButtonHome></WorksButtonHome>
+        <WorkHomeButton></WorkHomeButton>
       </div>
     </div>
   );

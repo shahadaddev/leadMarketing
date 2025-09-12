@@ -12,55 +12,60 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import worksOne from "../../../assets/images/worksOne.jpg";
-import worksTwo from "../../../assets/images/worksTwo.jpg";
-import worksThree from "../../../assets/images/worksThree.jpg";
+import workOne from "../../../assets/works/workSlideOne.jpg";
+import workTwo from "../../../assets/works/workSlideTwo.jpg";
+import workThree from "../../../assets/works/workSlideThree.jpg";
+import workFour from "../../../assets/works/workSlideFour.jpg";
+import workFive from "../../../assets/works/worksSlideFive.jpg";
+import workSix from "../../../assets/works/worksSlideSix.jpg";
+import workSeven from "../../../assets/works/worksSlideSeven.jpg";
+
 import { NavLink } from "react-router";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { RxGlobe } from "react-icons/rx";
 import React, { useState, useEffect } from "react";
 
-const WorkRightSlider = () => {
+const WorkLeftSlider = () => {
   const works = [
     {
       id: 1,
-      img: worksOne,
+      img: workOne,
       title: "Imtiaj Jeha",
       Designation: "Founder & Marketing Consultant",
     },
     {
       id: 2,
-      img: worksTwo,
+      img: workTwo,
       title: "Fatema Fahima",
       Designation: "Co-founder & The Creative geek",
     },
     {
       id: 3,
-      img: worksThree,
+      img: workThree,
       title: "Darren Martin",
       Designation: "The Mentor",
     },
     {
       id: 4,
-      img: worksOne,
+      img: workFour,
       title: "Rayyan Karim",
       Designation: "Asst. Art Director",
     },
     {
       id: 5,
-      img: worksTwo,
+      img: workFive,
       title: "Ashraf Mamun",
       Designation: "Senior Copywriter",
     },
     {
       id: 6,
-      img: worksThree,
+      img: workSix,
       title: "Istiak Sakib",
       Designation: "Senior Visualizer",
     },
     {
       id: 7,
-      img: worksTwo,
+      img: workSeven,
       title: "Sanila Shawlin",
       Designation: "Portfolio Manager",
     },
@@ -88,7 +93,7 @@ const WorkRightSlider = () => {
         // navigation
         loop={true}
         autoplay={{ delay: 800, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
         speed={2000}
@@ -203,4 +208,4 @@ const WorkRightSlider = () => {
   );
 };
 
-export default WorkRightSlider;
+export default WorkLeftSlider;

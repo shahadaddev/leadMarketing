@@ -12,55 +12,60 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import worksOne from "../../../assets/images/worksOne.jpg";
-import worksTwo from "../../../assets/images/worksTwo.jpg";
-import worksThree from "../../../assets/images/worksThree.jpg";
+import workOne from "../../../assets/works/workSlideOne.jpg";
+import workTwo from "../../../assets/works/workSlideTwo.jpg";
+import workThree from "../../../assets/works/workSlideThree.jpg";
+import workFour from "../../../assets/works/workSlideFour.jpg";
+import workFive from "../../../assets/works/worksSlideFive.jpg";
+import workSix from "../../../assets/works/worksSlideSix.jpg";
+import workSeven from "../../../assets/works/worksSlideSeven.jpg";
+
 import { NavLink } from "react-router";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { RxGlobe } from "react-icons/rx";
 import React, { useState, useEffect } from "react";
 
-const WorksSlider = () => {
+const WorkRightSlider = () => {
   const works = [
     {
       id: 1,
-      img: worksOne,
+      img: workThree,
       title: "Imtiaj Jeha",
       Designation: "Founder & Marketing Consultant",
     },
     {
       id: 2,
-      img: worksTwo,
+      img: workFour,
       title: "Fatema Fahima",
       Designation: "Co-founder & The Creative geek",
     },
     {
       id: 3,
-      img: worksThree,
+      img: workFive,
       title: "Darren Martin",
       Designation: "The Mentor",
     },
     {
       id: 4,
-      img: worksOne,
+      img: workSix,
       title: "Rayyan Karim",
       Designation: "Asst. Art Director",
     },
     {
       id: 5,
-      img: worksTwo,
+      img: workSeven,
       title: "Ashraf Mamun",
       Designation: "Senior Copywriter",
     },
     {
       id: 6,
-      img: worksThree,
+      img: workOne,
       title: "Istiak Sakib",
       Designation: "Senior Visualizer",
     },
     {
       id: 7,
-      img: worksTwo,
+      img: workTwo,
       title: "Sanila Shawlin",
       Designation: "Portfolio Manager",
     },
@@ -79,7 +84,6 @@ const WorksSlider = () => {
   const toggleOverlay = () => {
     if (isMobile) setShowOverlay(!showOverlay);
   };
-
   return (
     <div className="">
       <Swiper
@@ -89,7 +93,7 @@ const WorksSlider = () => {
         // navigation
         loop={true}
         autoplay={{ delay: 800, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
         speed={2000}
@@ -121,28 +125,6 @@ const WorksSlider = () => {
       >
         {works.map((team, index) => (
           <SwiperSlide key={team.id} virtualIndex={index}>
-            {/* <div className="lg:block flex justify-center">
-              <div className="cursor-pointer relative">
-                <img className="rounded-xl w-full" src={team.img} alt="" />
-
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black/90 via-black/10 to-white/10"></div>
-
-                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center w-full">
-                  <div className="flex justify-center gap-4">
-                    <NavLink>
-                      <FaFacebook className="text-white/80 text-3xl font-bold flex justify-center"></FaFacebook>
-                    </NavLink>
-                    <NavLink>
-                      <FaLinkedin className="text-white/80 text-3xl font-bold flex justify-center"></FaLinkedin>
-                    </NavLink>
-                    <NavLink>
-                      <RxGlobe className="text-white/80 text-3xl font-bold flex justify-center"></RxGlobe>
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
             <div
               className={`relative cursor-pointer group`}
               onClick={toggleOverlay}
@@ -204,4 +186,4 @@ const WorksSlider = () => {
   );
 };
 
-export default WorksSlider;
+export default WorkRightSlider;

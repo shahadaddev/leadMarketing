@@ -1,8 +1,7 @@
-import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { NavLink } from "react-router";
 
-const WorksButtonHome = () => {
+const WorkHomeButton = () => {
   return (
     <div className="lg:w-full w-5/6">
       <div className="flex justify-start">
@@ -17,4 +16,4 @@ const WorksButtonHome = () => {
   );
 };
 
-export default WorksButtonHome;
+export default WorkHomeButton;

@@ -1,6 +1,3 @@
-import React from "react";
-import ClientTitle from "./WorkTitle/WorkTitle";
-import ClientContent from "./WorkContent/WorkContent";
 import WorkTitle from "./WorkTitle/WorkTitle";
 import WorkContent from "./WorkContent/WorkContent";
 
