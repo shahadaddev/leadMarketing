@@ -1,3 +1,5 @@
+import WorksSlider from "../WorksSlider/WorksSlider";
+
 const OurWorksContent = () => {
   return (
     <div className="w-full lg:space-y-15 space-y-12 lg:py-6 py-6">
@@ -9,7 +11,7 @@ const OurWorksContent = () => {
           thrives in a competitive market.
         </p>
       </div>
-      {/* <TeamSlide></TeamSlide> */}
+      <WorksSlider></WorksSlider>
       <div className="lg:hidden block">{/* <TeamButton></TeamButton> */}</div>
     </div>
   );
