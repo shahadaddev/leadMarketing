@@ -1,14 +1,14 @@
-import leftImgTwo from "../../../assets/works/stockWorkTwo.jpg";
-import leftImgThree from "../../../assets/works/stockWorkThree.jpg";
+import leftImgFour from "../../../assets/works/stockWorkFour.jpg";
+import leftImgOne from "../../../assets/works/stockWorkOne.jpg";
 
 const WorkRightContent = () => {
   return (
     <div className="flex gap-0.5">
       <div>
-        <img className="rounded-xl shadow-2xl" src={leftImgThree} alt="" />
+        <img className="rounded-xl shadow-2xl" src={leftImgOne} alt="" />
       </div>
       <div>
-        <img className="rounded-xl shadow-2xl" src={leftImgTwo} alt="" />
+        <img className="rounded-xl shadow-2xl" src={leftImgFour} alt="" />
       </div>
     </div>
   );

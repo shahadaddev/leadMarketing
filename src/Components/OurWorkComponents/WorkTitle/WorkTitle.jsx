@@ -3,7 +3,7 @@ import WorkHomeButton from "../WorkButtons/WorkHomeButton";
 
 const WorkTitle = () => {
   return (
-    <div className="flex justify-between lg:justify-between h-full w-full pb-16">
+    <div className="flex justify-between lg:justify-between h-full w-full pb-16 px-4">
       <div className="space-y-4 w-4/12">
         <h5 className="flex items-center justify-center gap-1 bg-red-200 lg:w-[140px] w-[140px] lg:py-1.5 py-1 rounded-full text-red-600 border-1 border-red-600 font-semibold lg:text-md text-sm">
           {" "}

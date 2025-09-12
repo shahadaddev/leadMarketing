@@ -7,13 +7,13 @@ import WorkRightContent from "./WorkRightContent";
 
 const WorkContent = () => {
   return (
-    <div className="py-8">
-      <div className="flex gap-5">
+    <div className="py-8 mx-2">
+      <div className="flex xl:gap-5 lg:gap-2">
         <div className="w-6/12 space-y-4">
           <WorkLeftContent></WorkLeftContent>
           <WorkLeftSlider></WorkLeftSlider>
         </div>
-        <div className="w-6/12 space-y-8">
+        <div className="w-6/12 space-y-4">
           <WorkRightSlider></WorkRightSlider>
           <WorkRightContent></WorkRightContent>
         </div>
