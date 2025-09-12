@@ -10,6 +10,7 @@ const ContactForm = () => {
       style={{
         backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${formBg})`,
         backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 lg:px-0">

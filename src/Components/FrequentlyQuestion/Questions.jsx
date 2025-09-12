@@ -24,7 +24,7 @@ const Questions = () => {
           </div>
           <div className="collapse-content text-sm space-y-2">
             <p>
-              Lead Bangladesh is a 360° marketing and creative agency offering:
+              Lead Marketing is a 360° marketing and creative agency offering:
             </p>
             <ul className="list-disc list-inside">
               <li>Branding & Strategy</li>
@@ -46,7 +46,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title font-bold lg:text-xl text-md">
-            What industries has Lead Bangladesh worked with?
+            What industries has Lead Marketing worked with?
           </div>
           <div className="collapse-content text-sm space-y-2">
             <p>
@@ -96,7 +96,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title font-bold lg:text-xl text-md">
-            Does Lead Bangladesh offer campaign planning and execution?
+            Does Lead Marketing offer campaign planning and execution?
           </div>
           <div className="collapse-content text-sm space-y-2">
             <p>
@@ -155,7 +155,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow bg-white/30 backdrop-blur-2xl rounded-xl p-4">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title font-bold lg:text-xl text-md">
-            What sets Lead Bangladesh apart from other agencies?
+            What sets Lead Marketing apart from other agencies?
           </div>
           <div className="collapse-content text-sm space-y-2">
             <ul className="list-disc list-inside">
