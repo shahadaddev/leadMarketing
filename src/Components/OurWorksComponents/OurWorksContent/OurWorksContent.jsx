@@ -1,3 +1,4 @@
+import WorksButtonHome from "../WorksButton/WorksButtonHome";
 import WorksSlider from "../WorksSlider/WorksSlider";
 
 const OurWorksContent = () => {
@@ -12,7 +13,9 @@ const OurWorksContent = () => {
         </p>
       </div>
       <WorksSlider></WorksSlider>
-      <div className="lg:hidden block">{/* <TeamButton></TeamButton> */}</div>
+      <div className="lg:hidden block">
+        <WorksButtonHome></WorksButtonHome>
+      </div>
     </div>
   );
 };

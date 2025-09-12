@@ -147,7 +147,7 @@ const WorksSlider = () => {
               className={`relative cursor-pointer group`}
               onClick={toggleOverlay}
             >
-              <img className="rounded-xl w-full" src={team.img} alt="" />
+              <img className="rounded-xl xl:w-full" src={team.img} alt="" />
 
               {/* Overlay */}
               <div

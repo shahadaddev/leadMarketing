@@ -4,12 +4,12 @@ import OurWorksContent from "./OurWorksContent/OurWorksContent";
 
 const OurWorks = () => {
   return (
-    <div className="max-w-7xl lg:mx-auto lg:py-20 py-14 h-full ">
-      <div className="flex lg:flex-row flex-col-reverse w-full lg:justify-between lg:items-start lg:gap-8 px-4 lg:px-0">
-        <div className="xl:w-4/12 lg:w-5/12 xl:h-[575px] lg:h-[584px]">
+    <div className="max-w-7xl lg:mx-auto lg:py-20 py-14 h-full">
+      <div className="flex lg:flex-row flex-col xl:w-full lg:justify-between lg:items-start lg:gap-8 px-4 xl:px-0">
+        <div className="xl:w-4/12 lg:w-5/12 xl:h-[575px] lg:h-[507px]">
           <WorksTitle></WorksTitle>
         </div>
-        <div className="xl:w-8/12">
+        <div className="xl:w-8/12 lg:w-7/12">
           <OurWorksContent></OurWorksContent>
         </div>
       </div>
