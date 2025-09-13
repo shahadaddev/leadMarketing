@@ -8,7 +8,7 @@ const Team = () => {
         <div className="xl:w-8/12 lg:w-7/12">
           <TeamHomeContent></TeamHomeContent>
         </div>
-        <div className="xl:w-4/12 lg:w-5/12 xl:h-[485px] lg:h-[584px]">
+        <div className="xl:w-4/12 lg:w-5/12 xl:h-[528px] lg:h-[584px]">
           <TeamHomeTitle></TeamHomeTitle>
         </div>
       </div>

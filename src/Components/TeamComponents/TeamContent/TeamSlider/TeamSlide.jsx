@@ -102,7 +102,7 @@ const TeamSlide = () => {
         onSlideChange={() => console.log("slide change")}
         speed={2000}
         style={{
-          borderRadius: "12px",
+          borderRadius: "16px",
         }}
         breakpoints={{
           // when window width is >= 320px (phones)
@@ -156,7 +156,7 @@ const TeamSlide = () => {
             <SwiperSlide key={team.id} virtualIndex={index}>
               <div className="lg:block flex justify-center">
                 <div
-                  className="cursor-pointer relative xl:h-80 lg:w-[280px] w-fit"
+                  className="cursor-pointer relative lg:w-[280px] w-fit"
                   onClick={() => setSelectedTeam(team)}
                 >
                   <img className="rounded-xl" src={team.img} alt="" />
