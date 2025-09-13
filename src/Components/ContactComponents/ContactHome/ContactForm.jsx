@@ -1,5 +1,5 @@
 import { GoArrowUpRight } from "react-icons/go";
-import formBg from "../../../assets/images/formBg.jpg";
+// import formBg from "../../../assets/images/formBg.jpg";
 import ContactContent from "./ContactContent";
 import ContactTitle from "../ContactTitle/ContactTitle";
 
