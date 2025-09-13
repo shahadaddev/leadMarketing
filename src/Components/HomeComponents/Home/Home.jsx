@@ -36,8 +36,8 @@ const Home = () => {
       <div className="h-fit company-content">
         <PartnerCompany></PartnerCompany>
         <FrequentlyQuestion></FrequentlyQuestion>
-        <ContactForm></ContactForm>
       </div>
+      <ContactForm></ContactForm>
     </div>
   );
 };

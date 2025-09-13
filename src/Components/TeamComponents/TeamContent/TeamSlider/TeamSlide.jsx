@@ -156,7 +156,7 @@ const TeamSlide = () => {
             <SwiperSlide key={team.id} virtualIndex={index}>
               <div className="lg:block flex justify-center">
                 <div
-                  className="cursor-pointer relative lg:w-[280px] w-fit"
+                  className="cursor-pointer relative lg:w-[280px] w-fit overflow-hidden"
                   onClick={() => setSelectedTeam(team)}
                 >
                   <img className="rounded-xl" src={team.img} alt="" />
