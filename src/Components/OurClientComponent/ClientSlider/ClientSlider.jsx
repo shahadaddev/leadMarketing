@@ -100,7 +100,7 @@ const ClientSlider = () => {
         breakpoints={{
           // when window width is >= 320px (phones)
           320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           // when window width is >= 640px (small tablets)

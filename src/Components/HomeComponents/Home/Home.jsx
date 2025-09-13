@@ -11,6 +11,7 @@ import Navbar from "../../SharedComponents/Navbar/Navbar";
 import "./Home.css";
 import OurWorks from "../../OurWorkComponents/OurWorks";
 import OurClient from "../../OurClientComponent/OurClient";
+import Location from "../../Location/Location";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <OurClient></OurClient>
         <Testimonial></Testimonial>
         <Team></Team>
+        <Location></Location>
       </div>
       <div className="h-fit company-content">
         <PartnerCompany></PartnerCompany>
