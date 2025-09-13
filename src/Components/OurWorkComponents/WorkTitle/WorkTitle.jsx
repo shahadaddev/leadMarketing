@@ -3,8 +3,8 @@ import WorkHomeButton from "../WorkButtons/WorkHomeButton";
 
 const WorkTitle = () => {
   return (
-    <div className="flex justify-between lg:justify-between h-full w-full pb-16 px-4">
-      <div className="space-y-4 w-4/12">
+    <div className="flex lg:flex-row flex-col justify-between lg:justify-between h-full w-full pb-16 px-4">
+      <div className="space-y-4 lg:w-4/12">
         <h5 className="flex items-center justify-center gap-1 bg-red-200 lg:w-[140px] w-[140px] lg:py-1.5 py-1 rounded-full text-red-600 border-1 border-red-600 font-semibold lg:text-md text-sm">
           {" "}
           <HiBadgeCheck className="lg:text-xl text-lg" />
@@ -17,7 +17,7 @@ const WorkTitle = () => {
       </div>
 
       {/* Explore Team Members Button */}
-      <div className="hidden w-6/12 lg:flex lg:flex-col items-center justify-between pt-12">
+      <div className="lg:w-6/12 lg:flex lg:flex-col items-center justify-between lg:pt-12 pt-5 space-y-8 lg:space-y-0">
         <div className="">
           <p className="text-justify text-lg lg:w-11/12 lg:leading-7 leading-6">
             At Lead Marketing Inc, we offer a full range of marketing services,
