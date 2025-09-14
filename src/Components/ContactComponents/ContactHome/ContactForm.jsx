@@ -6,7 +6,7 @@ import ContactTitle from "../ContactTitle/ContactTitle";
 const ContactForm = () => {
   return (
     <div
-      className="lg:py-20 pt-14 pb-9 text-gray-700 bg-[#F9FAFB]"
+      className="lg:py-20 pt-14 pb-9 text-gray-700 "
       // style={{
       //   backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(200,200,255,0.6)), url(${formBg})`,
       //   backgroundRepeat: "no-repeat",
