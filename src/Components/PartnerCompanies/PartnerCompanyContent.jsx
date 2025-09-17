@@ -47,13 +47,13 @@ const PartnerCompanyContent = () => {
             <div className=" px-8 pb-6 py-4 lg:w-[380px] space-y-4">
               <h4 className="text-2xl font-extrabold">Lead Bangladesh</h4>
               <p className="text-justify">
-                Lead Marketing Inc. serves as a full-service marketing and
+                Lead Bangladesh Inc. serves as a full-service Bangladesh and
                 communications agency and the global partner of Lead Bangladesh
                 Ltd., proudly supporting clients around the world for over a
                 decade. The agency combines creative expertise with data-driven
                 strategies to deliver powerful, effective solutions that help
                 brands stay relevant and adapt to ever-evolving technologies.
-                Trusted by more than 400 clients, Lead Marketing Inc. drives
+                Trusted by more than 400 clients, Lead Bangladesh Inc. drives
                 growth and performance through innovative ideas and meticulous
                 execution.
               </p>
