@@ -1,4 +1,3 @@
-import React from "react";
 import PartnerCompanyTitle from "./PartnerCompanyTitle";
 import PartnerCompanyContent from "./PartnerCompanyContent";
 

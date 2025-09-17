@@ -4,7 +4,6 @@ import Home from "../Components/HomeComponents/Home/Home";
 import NotFound from "../Components/NotFound/NotFound";
 import About from "../Components/AboutComponents/AboutPage/About";
 import ContactPage from "../Components/ContactComponents/ContactPage";
-import LetsTalk from "../Components/ContactComponents/LetsTalk";
 
 const router = createBrowserRouter([
   {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage></ContactPage>,
-      },
-      {
-        path: "/contactForm",
-        element: <LetsTalk></LetsTalk>,
       },
     ],
   },

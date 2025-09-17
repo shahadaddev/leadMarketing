@@ -127,54 +127,6 @@ const ClientSlider = () => {
               onClick={toggleOverlay}
             >
               <img className="rounded-xl xl:w-full" src={team.img} alt="" />
-
-              {/* Overlay */}
-              <div
-                className={`
-          absolute inset-0 rounded-lg bg-gradient-to-t from-black/90 via-black/10 to-white/10
-          transition-all duration-300
-          ${
-            isMobile
-              ? showOverlay
-                ? "opacity-100"
-                : "opacity-0"
-              : "opacity-0 group-hover:opacity-100"
-          }
-        `}
-              ></div>
-
-              {/* Social icons */}
-              <div
-                className={`
-          absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center w-full
-          transition-all duration-300
-          ${
-            isMobile
-              ? showOverlay
-                ? "opacity-100"
-                : "opacity-0"
-              : "opacity-0 group-hover:opacity-100"
-          }
-        `}
-              >
-                <div className="flex justify-center gap-4">
-                  <NavLink
-                    to={"https://www.facebook.com/connectingcoasttocoast"}
-                  >
-                    <FaFacebook className="text-white/80 text-3xl font-bold" />
-                  </NavLink>
-                  <NavLink
-                    to={
-                      "https://www.linkedin.com/company/connectingcoasttocoast/"
-                    }
-                  >
-                    <FaLinkedin className="text-white/80 text-3xl font-bold" />
-                  </NavLink>
-                  <NavLink to={"https://www.connectingcoasttocoast.ca/"}>
-                    <RxGlobe className="text-white/80 text-3xl font-bold" />
-                  </NavLink>
-                </div>
-              </div>
             </div>
           </SwiperSlide>
         ))}

@@ -18,9 +18,9 @@ const Navbar = () => {
     { link: "/aboutUs", name: "About Us" },
     { link: "/works", name: "Our Works" },
     { link: "/services", name: "Services" },
-    { link: "/team", name: "Team" },
+    { link: "/caseStudy", name: "Project & Cases" },
     { link: "/career", name: "Career" },
-    { link: "/contact", name: "Contact" },
+    // { link: "/contact", name: "Contact" },
   ];
 
   // Prevent body scroll when mobile menu is open
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         {/* Desktop Let's Talk Button */}
         <div className="w-2/12 hidden md:flex justify-center">
-          <NavLink to={"/contactForm"}>
+          <NavLink to={"/contact"}>
             <button className="flex items-center gap-2 bg-[#F40026] hover:bg-white text-white hover:text-[#F40026] border-2 border-[#F40026] text-lg font-bold xl:px-8 lg:px-6 py-3 rounded-xl cursor-pointer transition-all duration-500">
               <IoCall className="text-xl" />
               Let's Talk
@@ -101,7 +101,7 @@ const Navbar = () => {
         ))}
 
         {/* Mobile Let's Talk Button */}
-        <NavLink to={"/contactForm"} onClick={() => setIsOpen(false)}>
+        <NavLink to={"/contact"} onClick={() => setIsOpen(false)}>
           <button className="flex items-center gap-2 bg-[#F40026] hover:bg-white text-white hover:text-[#F40026] border-2 border-[#F40026] text-base font-bold px-6 py-2 rounded-lg cursor-pointer transition-all duration-500">
             <IoCall className="text-lg" />
             Let's Talk
