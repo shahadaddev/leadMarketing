@@ -2,6 +2,7 @@ import Navbar from "../../SharedComponents/Navbar/Navbar";
 import Team from "../../TeamComponents/Team/Team";
 import AboutPageContent from "./AboutPageContent/AboutPageContent";
 import MissionVisionContent from "./MissionVissionPage/MissionVissionContent";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 
 const About = () => {
   return (
@@ -11,6 +12,9 @@ const About = () => {
         <AboutPageContent></AboutPageContent>
       </div>
       <MissionVisionContent></MissionVisionContent>
+      <div>
+        <WhyChooseUs></WhyChooseUs>
+      </div>
       <Team></Team>
     </div>
   );

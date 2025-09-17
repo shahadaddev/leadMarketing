@@ -7,9 +7,9 @@ const AboutPageContent = () => {
     <div className="">
       <div className="w-full xl:gap-8 lg:gap-5 ">
         {/* ------------ About Us Details ------------- */}
-        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-8 py-22 rounded-2xl">
+        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-12 py-22 rounded-2xl">
           <div className="xl:w-3/12">
-            <h1 className="lg:text-7xl text-5xl uppercase font-black text-left">
+            <h1 className="lg:text-8xl lg:leading-18 text-5xl uppercase font-black text-left">
               who <br /> <span className="text-[#F40026]">we</span> <br /> are
             </h1>
             <p className="text-left lg:text-lg my-2">

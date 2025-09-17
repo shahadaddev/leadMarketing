@@ -2,7 +2,7 @@ import teamMeeting from "../../../../assets/images/Joinourteam.webp";
 
 const MissionVisionContent = () => {
   return (
-    <div className="max-w-7xl mx-auto w-full py-12">
+    <div className="max-w-7xl mx-auto w-full pt-20">
       <div className="flex gap-5">
         <div className="relative xl:w-6/12">
           <img src={teamMeeting} className="rounded-2xl" alt="" />
