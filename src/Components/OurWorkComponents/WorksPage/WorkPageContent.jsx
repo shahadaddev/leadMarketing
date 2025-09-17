@@ -7,10 +7,12 @@ import mogaImg2 from "../../../assets/works/mogador/img2.jpg";
 import mogaImg3 from "../../../assets/works/mogador/img3.jpg";
 import mogaImg4 from "../../../assets/works/mogador/img4.jpg";
 
-// Background Image
-import bg from "../../../assets/images/questionBg.JPG";
+// Hurricane -----------------
+import hc1 from "../../../assets/works/hurricane/hurricaneOne.jpg";
+import hc2 from "../../../assets/works/hurricane/hurricaneTwo.jpg";
+import hc3 from "../../../assets/works/hurricane/hurricaneThree.jpg";
 
-const WorkContent = () => {
+const WorkPageContent = () => {
   const worksContent = [
     {
       id: 1,
@@ -47,7 +49,7 @@ const WorkContent = () => {
       title: "NL Hurricanes",
       paragraph:
         "A blogging platform where users can write, edit, and publish articles with markdown support.",
-      images: ["blog-home.png", "blog-post.png", "blog-dashboard.png"],
+      images: [hc1, hc2, hc3],
       bulletPoints: ["Markdown editor", "SEO-friendly URLs", "Admin dashboard"],
     },
     {
@@ -141,8 +143,8 @@ const WorkContent = () => {
   ];
 
   return (
-    <div className="work-content">
-      <div className="space-y-36 xl:my-16 lg:py-20 py-16 text-gray-700 max-w-7xl mx-auto">
+    <div className="">
+      <div className="space-y-36 text-gray-700 max-w-7xl mx-auto">
         {worksContent.map((work, index) => (
           <div
             key={work.id}
@@ -172,4 +174,4 @@ const WorkContent = () => {
   );
 };
 
-export default WorkContent;
+export default WorkPageContent;

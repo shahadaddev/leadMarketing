@@ -5,14 +5,14 @@ import AboutPageHighlightTwo from "../AboutPageHighlight/AboutPageHighlightTwo";
 const AboutPageContent = () => {
   return (
     <div className="">
-      <div className="w-full xl:gap-8 lg:gap-5 ">
+      <div className="w-full xl:gap-8 lg:gap-5">
         {/* ------------ About Us Details ------------- */}
-        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-12 py-22 rounded-2xl">
-          <div className="xl:w-3/12">
+        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-12 py-22 rounded-3xl">
+          <div className="xl:w-3/12 space-y-4">
             <h1 className="lg:text-8xl lg:leading-18 text-5xl uppercase font-black text-left">
               who <br /> <span className="text-[#F40026]">we</span> <br /> are
             </h1>
-            <p className="text-left lg:text-lg my-2">
+            <p className="text-lg font-medium pt-5">
               Our work isn't about ads. It's about creating impact that lasts.
             </p>
           </div>
