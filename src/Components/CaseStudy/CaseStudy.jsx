@@ -14,7 +14,7 @@ const CaseStudy = () => {
     <div>
       <Navbar></Navbar>
       <div className="max-w-7xl mx-auto py-16">
-        <section className="grid grid-cols-2 gap-10">
+        <section className="grid lg:grid-cols-2 grid-cols-1 gap-10">
           <div>
             <img src={caseOne} alt="" />
           </div>

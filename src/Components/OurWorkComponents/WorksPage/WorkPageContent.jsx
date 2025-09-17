@@ -11,6 +11,8 @@ import mogaImg4 from "../../../assets/works/mogador/img4.jpg";
 import hc1 from "../../../assets/works/hurricane/hurricaneOne.jpg";
 import hc2 from "../../../assets/works/hurricane/hurricaneTwo.jpg";
 import hc3 from "../../../assets/works/hurricane/hurricaneThree.jpg";
+import { GoArrowUpRight } from "react-icons/go";
+import { NavLink } from "react-router";
 
 const WorkPageContent = () => {
   const worksContent = [
@@ -153,7 +155,7 @@ const WorkPageContent = () => {
             }`}
           >
             {/* Content Section */}
-            <div className="md:w-7/12 space-y-10 p-10 rounded-2xl bg-white/30 backdrop-blur-2xl">
+            <div className="md:w-7/12 space-y-5 p-10 rounded-2xl bg-white/30 backdrop-blur-2xl">
               <h2 className="text-5xl font-black">{work.title}</h2>
               <p className="text-xl font-medium">{work.paragraph}</p>
               <ul className="list-disc list-inside space-y-1 text-lg font-medium">
@@ -161,6 +163,14 @@ const WorkPageContent = () => {
                   <li key={i}>{point}</li>
                 ))}
               </ul>
+              <div className="lg:mt-10 lg:w-1/2 lg:mx-0 w-5/6 mx-auto">
+                <NavLink to={"/aboutUs"}>
+                  <h3 className="lg:text-lg font-bold bg-white text-[#F40026] px-10 py-4 rounded-xl flex items-center justify-center cursor-pointer hover:bg-[#F40026] hover:backdrop-blur-md border-2 border-[#F40026] hover:text-white transition-all duration-700 hover-container gap-2">
+                    Explore More{" "}
+                    <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
+                  </h3>
+                </NavLink>
+              </div>
             </div>
 
             {/* Image Slider Section */}
