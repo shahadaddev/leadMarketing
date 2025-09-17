@@ -1,16 +1,13 @@
 import { IoPeople } from "react-icons/io5";
-import AboutHomeButton from "../../About/AboutButton/AboutHomeButton";
-import AboutHighlight from "../../About/AboutContent/AboutHighlight";
 import AboutPageHighlight from "../AboutPageHighlight/AboutPageHighlight";
 import AboutPageHighlightTwo from "../AboutPageHighlight/AboutPageHighlightTwo";
-// import questionImg from "../../../../assets/images/questionBg.JPG";
 
 const AboutPageContent = () => {
   return (
     <div className="">
-      <div className="w-full py-8 xl:gap-8 lg:gap-5 ">
+      <div className="w-full xl:gap-8 lg:gap-5 ">
         {/* ------------ About Us Details ------------- */}
-        <div className="flex justify-center gap-12 max-w-7xl mx-auto">
+        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-8 py-22 rounded-2xl">
           <div className="xl:w-3/12">
             <h1 className="lg:text-7xl text-5xl uppercase font-black text-left">
               who <br /> <span className="text-[#F40026]">we</span> <br /> are
@@ -52,12 +49,8 @@ const AboutPageContent = () => {
         </div>
 
         {/* About Highlight Icons */}
-        <div
-        //   style={{
-        //     backgroundImage: `url(${questionImg})`,
-        //   }}
-        >
-          <div className="py-24 space-y-12 max-w-7xl mx-auto">
+        <div>
+          <div className="py-24 space-y-12 max-w-6xl mx-auto">
             <AboutPageHighlight></AboutPageHighlight>
             <AboutPageHighlightTwo></AboutPageHighlightTwo>
           </div>

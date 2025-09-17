@@ -6,9 +6,9 @@ const AboutPageHighlightTwo = () => {
   return (
     <div className="w-full lg:py-0 py-12">
       <div className="flex justify-start">
-        <div className="flex flex-col justify-center items-center bg-white shadow-2xl border-t-1 border-l-1 border-[#F40026] w-52 py-4 rounded-2xl space-y-2 h-36">
+        <div className="flex flex-col justify-center items-center bg-white/60 w-52 py-5 rounded-2xl shadow-lg space-y-2 h-36">
           <div className="flex justify-center">
-            <HiMiniTrophy className="lg:text-4xl text-3xl text-emerald-400 bg-emerald-100 rounded-full px-2" />
+            <HiMiniTrophy className="mt-0.5 text-5xl text-emerald-500 bg-emerald-100 rounded-full px-3" />
           </div>
           <div className="text-center">
             <h4 className="xl:text-xl lg:text-lg text-gray-700 font-extrabold mt-2">
@@ -22,9 +22,9 @@ const AboutPageHighlightTwo = () => {
         {/*------------
            Number Two
            ------------ */}
-        <div className="flex flex-col justify-center items-center bg-white shadow-2xl border-t-1 border-l-1 border-[#F40026] w-52 py-4 rounded-2xl space-y-2 h-36 ml-52">
+        <div className="flex flex-col justify-center items-center bg-white/60 w-52 py-5 rounded-2xl shadow-lg space-y-2 h-36 ml-40">
           <div className="flex justify-center">
-            <IoPeople className="lg:text-4xl text-3xl text-indigo-500 bg-indigo-100 rounded-full px-[6px]" />
+            <IoPeople className="mt-0.5 text-5xl text-indigo-500 bg-indigo-100 rounded-full px-2" />
           </div>
           <div className="text-center">
             <h4 className="xl:text-xl lg:text-lg text-gray-700 font-extrabold mt-2">
@@ -38,9 +38,9 @@ const AboutPageHighlightTwo = () => {
         {/* -----------------
            Number Three 
            --------------- */}
-        <div className="flex flex-col justify-center items-center bg-white shadow-2xl border-t-1 border-l-1 border-[#F40026] w-52 py-4 rounded-2xl space-y-2 h-36 ml-52">
+        <div className="flex flex-col justify-center items-center bg-white/60 w-52 py-5 rounded-2xl shadow-lg space-y-2 h-36 ml-40">
           <div className="flex justify-center">
-            <IoBusinessSharp className="lg:text-4xl text-3xl text-[#F40026] bg-red-100 rounded-full px-2" />
+            <IoBusinessSharp className="mt-0.5 text-5xl text-purple-500 bg-purple-100 rounded-full px-2" />
           </div>
           <div className="text-center">
             <h4 className="xl:text-xl lg:text-lg text-gray-700 font-extrabold mt-2">
