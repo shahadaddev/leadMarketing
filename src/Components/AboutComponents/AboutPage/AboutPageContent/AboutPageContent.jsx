@@ -21,7 +21,7 @@ const AboutPageContent = () => {
               <p className="lg:text-xl text-lg font-medium lg:leading-8 leading-6 text-justify">
                 Lead Marketing Inc. is a full-service marketing and
                 communications agency serving worldwide from Canada. This is the
-                global venture of Lead Bangladesh Ltd., a full-service marketing
+                global venture of Lead Marketing Ltd., a full-service marketing
                 agency with 10 years of experience. We have served 350+ clients.
                 Our clients create a positive difference in the market with our
                 proper blend of expertise and excellence. With data-driven

@@ -16,9 +16,9 @@ const Navbar = () => {
   const navigation = [
     { link: "/", name: "Home" },
     { link: "/aboutUs", name: "About Us" },
-    { link: "/works", name: "Our Works" },
+    { link: "/works", name: "Works" },
     { link: "/services", name: "Services" },
-    { link: "/caseStudy", name: "Project & Cases" },
+    { link: "/caseStudy", name: "Cases" },
     { link: "/career", name: "Career" },
     // { link: "/contact", name: "Contact" },
   ];
@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <div className="lg:max-w-7xl xl:mx-auto lg:w-full lg:px-4 w-[85%] mx-auto relative">
-      <div className="flex justify-between items-center lg:py-3">
+      <div className="flex justify-between items-center lg:py-1">
         {/* Logo */}
         <div className="md:w-2/12 w-2/6">
           <NavLink to={"/"}>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <ul className="flex xl:gap-10 lg:gap-6 md:gap-4">
             {navigation.map((nav, index) => (
               <NavLink className={navigationStyle} key={index} to={nav.link}>
-                <li className="text-lg font-bold">{nav.name}</li>
+                <li className="text-xl font-bold">{nav.name}</li>
               </NavLink>
             ))}
           </ul>

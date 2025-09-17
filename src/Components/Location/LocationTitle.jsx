@@ -11,7 +11,7 @@ const LocationTitle = () => {
       </div>
       <div className="xl:w-6/12 lg:w-7/12 pt-4">
         <p className="text-xl">
-          At Lead Bangladesh Ltd., we offer a full range of marketing services,
+          At Lead Marketing Ltd., we offer a full range of marketing services,
           from strategic branding and digital marketing to content creation and
           campaign management. Our expertise ensures your brand stands out and
           thrives in a competitive market.

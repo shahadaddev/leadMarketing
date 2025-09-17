@@ -1,8 +1,6 @@
-import React from "react";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
-import WorkContent from "../WorkContent/WorkContent";
-import WorkLeftContent from "../WorkContent/WorkLeftContent";
 import WorkBanner from "./WorkBanner";
+import WorkContent from "./WorkContent";
 
 const WorkPage = () => {
   return (
@@ -11,6 +9,7 @@ const WorkPage = () => {
       <div className="max-w-7xl lg:mx-auto xl:pt-24 xl:py-0 py-14 mx-4 mt-8">
         <WorkBanner></WorkBanner>
       </div>
+      <WorkContent></WorkContent>
     </div>
   );
 };

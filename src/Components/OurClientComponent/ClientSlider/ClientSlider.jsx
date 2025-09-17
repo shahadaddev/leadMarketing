@@ -15,10 +15,7 @@ import "swiper/css/scrollbar";
 import clientOne from "../../../assets/clients/clientOne.png";
 import clientTwo from "../../../assets/clients/clientTwo.png";
 import clientThree from "../../../assets/clients/clientOne.png";
-import { NavLink } from "react-router";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
-import { RxGlobe } from "react-icons/rx";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const ClientSlider = () => {
   const client = [

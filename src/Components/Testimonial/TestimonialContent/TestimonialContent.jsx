@@ -18,11 +18,11 @@ const TestimonialContent = () => {
         <div className="relative">
           <div className="bg-[#18105E] shadow-xl lg:px-10 p-5 lg:py-10 rounded-t-4xl rounded-bl-[90px] xl:w-[500px] lg:w-[480px] text-white/90 lg:h-72 h-80">
             <p className="text-justify font-medium">
-              Lead Bangladesh seamlessly executes our entire digital marketing
+              Lead Marketing seamlessly executes our entire digital marketing
               strategy with incredible skill and expertise. Their ability to
               provide consistent results and offer the latest techniques keeps
               our brand ahead of the competition in an ever-changing digital
-              environment. We consider the Lead Bangladesh team an extension of
+              environment. We consider the Lead Marketing team an extension of
               our company, not just another partner.
             </p>
           </div>
@@ -39,7 +39,7 @@ const TestimonialContent = () => {
         <div className="relative">
           <div className="bg-white shadow-xl lg:px-10 p-5 lg:py-10 rounded-t-4xl rounded-bl-[90px] xl:w-[500px] lg:w-[480px] lg:h-72 h-80">
             <p className="text-justify font-medium">
-              Working with Lead Bangladesh team provided us with the expert
+              Working with Lead Marketing team provided us with the expert
               guidance we need to take our firm's marketing in digital realm and
               beyond, to another level. Early in the project, we threw a
               curveball in that we decided to refresh our brand and launch a

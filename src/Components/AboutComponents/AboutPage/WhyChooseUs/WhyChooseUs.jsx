@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
             Why <span className="text-[#F40026]">Choose</span> Us
           </h1>
           <p className="text-center lg:text-xl my-2">
-            Lead Bangladesh is guided by core values that shape our culture,
+            Lead Marketing is guided by core values that shape our culture,
             influence our decisions, <br /> and define how we collaborate with
             clients, partners, and one another.
           </p>
@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
               <hr className="text-gray-400" />
               <p className="text-lg">
                 We believe in the power of fresh ideas to spark meaningful
-                connections. At Lead Bangladesh, creativity is not only design
+                connections. At Lead Marketing, creativity is not only design
                 but also the art of blending insight with imagination that
                 inspire, engage, and leave a lasting impression.
               </p>
