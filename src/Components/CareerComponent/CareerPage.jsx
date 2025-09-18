@@ -6,14 +6,14 @@ const CareerPage = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="max-w-7xl mx-auto pt-24 mt-8">
-        <div className="bg-gray-100 p-10 rounded-3xl flex justify-center items-center">
-          <div className="space-y-4 lg:w-7/12">
-            <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-17 lg:leading-14 leading-9 text-gray-700">
+      <div className="max-w-7xl mx-auto lg:pt-24 lg:mt-8">
+        <div className="bg-gray-100 lg:p-10 px-5 py-8 rounded-3xl flex lg:flex-row flex-col justify-center items-center space-y-8 lg:space-y-0 mx-5">
+          <div className="lg:space-y-4 lg:w-7/12">
+            <h2 className="xl:text-[80px] lg:text-7xl text-4xl font-black uppercase xl:leading-17 lg:leading-14 leading-7 text-gray-700">
               Join <br /> Our <br />{" "}
               <span className="text-[#F40026]">Team</span>
             </h2>
-            <p className="w-3/4 text-lg font-medium pt-5">
+            <p className="lg:w-3/4 lg:text-lg font-medium pt-5">
               Grow, innovate, and make an impact with us — discover
               opportunities where your skills and passion drive real success.
             </p>

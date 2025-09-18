@@ -13,7 +13,7 @@ const WorkPage = () => {
       <div className="work-content my-20">
         <div className="lg:py-20 py-8 max-w-7xl xl:mx-auto space-y-14 mx-4">
           <div>
-            <h2 className="xl:text-[80px] lg:text-6xl text-4xl font-black uppercase xl:leading-17 lg:leading-12 leading-8 text-gray-700 text-center">
+            <h2 className="xl:text-7xl lg:text-6xl text-4xl font-black uppercase xl:leading-15 lg:leading-12 leading-8 text-gray-700 text-center">
               All Our <br /> <span className="text-[#F40026]">Success</span>{" "}
               Stories
             </h2>

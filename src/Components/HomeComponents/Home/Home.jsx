@@ -21,7 +21,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center "
           style={{ backgroundImage: `url(${homeBanner})` }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-red-800/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-600/65 to-red-900/70"></div>
         <div className="relative">
           <NavbarHome></NavbarHome>
           <Banner></Banner>

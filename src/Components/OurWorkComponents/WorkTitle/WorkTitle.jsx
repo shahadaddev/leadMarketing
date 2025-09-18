@@ -10,14 +10,14 @@ const WorkTitle = () => {
           <HiBadgeCheck className="lg:text-xl text-lg" />
           Our Works
         </h5>
-        <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-17 lg:leading-14 leading-9 text-gray-700">
+        <h2 className="xl:text-7xl lg:text-6xl text-5xl font-black uppercase xl:leading-15 lg:leading-12 leading-9 text-gray-700">
           The <br /> <span className="text-[#F40026]">stories</span> <br />{" "}
           We've <br /> built
         </h2>
       </div>
 
       {/* Explore Team Members Button */}
-      <div className="lg:w-6/12 lg:flex lg:flex-col items-center justify-between lg:pt-12 pt-5 space-y-8 lg:space-y-0">
+      <div className="lg:w-6/12 lg:flex lg:flex-col items-center justify-between lg:pt-12 pt-5 space-y-8 lg:space-y-8">
         <div className="">
           <p className="text-justify text-lg lg:w-11/12 lg:leading-7 leading-6">
             At Lead Marketing Inc, we offer a full range of marketing services,

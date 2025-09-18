@@ -130,52 +130,55 @@ const ServicePageContent = () => {
     },
   ];
   return (
-    <div className="py-16">
+    <div className="lg:py-16 py-10 mx-5 lg:mx-0">
       <div>
-        <h1 className="lg:text-6xl text-5xl uppercase font-black text-center">
-          The <span className="text-[#F40026]">Services</span> We <br /> provide
+        <h1 className="lg:text-5xl text-4xl lg:leading-10 leading-7 uppercase font-black text-center">
+          The <span className="text-[#F40026]">Services</span>{" "}
+          <br className="block lg:hidden" /> We{" "}
+          <br className="hidden lg:block" /> provide
         </h1>
-        <p className="text-center lg:text-xl my-2">
+        <p className="text-center lg:text-xl my-2 lg:w-2/3 mx-auto">
           Tailored Solutions for Every Need — delivering expertise that adapts
-          to your goals. From strategy to execution, <br /> we provide services
+          to your goals. From strategy to execution, we provide services
           designed to solve challenges and empowering your growth to achieve
           lasting success.
         </p>
       </div>
-      <div className="space-y-28 text-gray-700 py-16">
+      <div className="space-y-20 text-gray-700 py-10 lg:px-4">
         {services.map((service, index) => (
           <div
             key={service.id}
-            className={`flex flex-col md:flex-row items-center gap-14 ${
+            className={`flex flex-col md:flex-row items-start justify-between gap-10 xl:px-8 xl:py-20 lg:p-6 p-4 rounded-3xl xl:mx-5 ${
               index % 2 === 0
-                ? "md:flex-row bg-white/30 backdrop-blur-lg rounded-3xl px-8 py-8"
-                : "md:flex-row-reverse bg-black/30 backdrop-blur-lg rounded-3xl px-8 py-8 text-white"
+                ? "bg-white/30 backdrop-blur-lg text-gray-700"
+                : "bg-black/30 backdrop-blur-lg text-white md:flex-row-reverse"
             }`}
           >
-            {/* Left Side: Icon + Title + Description */}
-            <div className="md:w-4/12 space-y-4">
-              <div className="flex items-center gap-3 -mt-24">
-                {/* <service.icon className="text-4xl text-indigo-500" /> */}
-                <h1 className="text-[150px] font-black">{index + 1}</h1>
-                <h2 className="text-6xl font-black leading-12">
+            {/* Left Side: Number + Title + Description */}
+            <div className="md:w-4/12 xl:w-5/12 space-y-4 w-full">
+              <div className="flex items-center gap-3">
+                <h1 className="text-6xl md:text-[120px] font-black">
+                  {index + 1}
+                </h1>
+                <h2 className="text-3xl md:text-4xl xl:text-5xl font-black xl:leading-10 md:leading-8 leading-tight uppercase">
                   {service.title}
                 </h2>
               </div>
-              <p className="text-lg font-medium -mt-8 text-justify">
+              <p className="text-base md:text-lg font-medium lg:font-normal text-justify">
                 {service.description}
               </p>
             </div>
 
             {/* Right Side: List */}
-            <div className={`md:w-8/12 rounded-2xl p-6`}>
-              <ul className="space-y-5 text-gray-700 text-xl font-semibold grid grid-cols-2 gap-4">
+            <div className="md:w-7/12 xl:w-7/12 rounded-2xl w-full">
+              <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                 {service.list.map((point, i) => (
                   <li
                     key={i}
-                    className={`px-4 py-8 rounded-2xl  cursor-pointer  ${
+                    className={`px-4 py-6 md:py-8 rounded-2xl text-base md:text-lg font-semibold md:font-medium cursor-pointer transition ${
                       index % 2 === 0
                         ? "bg-white/50 text-gray-700 hover:bg-white"
-                        : "bg-black/30 text-white border-2 border-black/0 hover:bg-black"
+                        : "bg-black/30 text-white hover:bg-black"
                     }`}
                   >
                     {point}

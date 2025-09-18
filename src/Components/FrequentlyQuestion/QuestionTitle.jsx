@@ -11,7 +11,7 @@ const QuestionTitle = () => {
           Frequently asked questions
         </h5>
         <div className="text-left items-end flex">
-          <h2 className="xl:text-[80px] lg:text-[66px] text-5xl font-black uppercase xl:leading-16 lg:leading-14 leading-9 text-gray-700">
+          <h2 className="xl:text-7xl lg:text-6xl text-4xl font-black uppercase xl:leading-14 lg:leading-12 leading-7 text-gray-700">
             Common <br /> <span className="text-[#F40026]">Questions</span>{" "}
             <br /> & Answers
           </h2>

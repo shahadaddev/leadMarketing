@@ -4,7 +4,7 @@ const LocationTitle = () => {
   return (
     <div className="flex lg:flex-row flex-col lg:justify-between gap-8 justify-start items-start h-full w-full max-w-7xl mx-auto xl:px-0 px-4">
       <div className="items-start flex xl:w-6/12 lg:w-5/12">
-        <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-16 lg:leading-14 leading-9 text-gray-700">
+        <h2 className="xl:text-7xl lg:text-6xl text-5xl font-black uppercase xl:leading-14 lg:leading-12 leading-9 text-gray-700">
           the <br /> <span className="text-[#F40026]">places</span> <br /> we
           are <br /> <span className="text-[#F40026]">located</span>
         </h2>

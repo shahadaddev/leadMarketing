@@ -13,16 +13,19 @@ const CaseStudy = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="max-w-7xl mx-auto pt-24 mt-8">
-        <div className="space-y-4 px-12 py-16 flex justify-between gap-16 bg-gray-100 rounded-3xl mb-24">
-          <h2 className="lg:text-7xl text-5xl font-black uppercase xl:leading-15 lg:leading-14 leading-9 text-gray-700 text-left">
-            Our{" "}
+      <div className="max-w-7xl mx-auto lg:pt-24 lg:mt-8 pb-8">
+        <div className="lg:space-y-4 lg:px-12 px-5 lg:py-16 py-8 flex lg:flex-row flex-col justify-between lg:gap-16 gap-8 bg-gray-100 rounded-3xl lg:mb-24 mb-12 mx-5 lg:mx-0">
+          {/* --------------- */}
+          <h2 className="lg:text-7xl text-4xl font-black uppercase xl:leading-15 lg:leading-14 leading-7 text-gray-700 text-left">
+            Our <br className="lg:hidden block" />
             <span className="text-[#F40026]">
               Project <br />
             </span>{" "}
             and Cases
           </h2>
-          <p className="text-left text-lg pt-8 font-medium">
+
+          {/* ---------------- */}
+          <p className="text-left text-lg lg:pt-8 font-medium">
             Proven Strategies, Real-World Impact — uncovering the lessons behind
             every success. Each case study highlights real challenges,
             innovative solutions, and measurable outcomes. These stories reflect
@@ -32,7 +35,7 @@ const CaseStudy = () => {
             lasting success.
           </p>
         </div>
-        <section className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+        <section className="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 mx-5 lg:mx-0">
           <div>
             <img src={caseOne} alt="" />
           </div>
