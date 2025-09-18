@@ -168,19 +168,13 @@ const WorkLeftSlider = () => {
         `}
               >
                 <div className="flex justify-center gap-4">
-                  <NavLink
-                    to={"https://www.facebook.com/connectingcoasttocoast"}
-                  >
+                  <NavLink to={team.facebook}>
                     <FaFacebook className="text-white/80 text-3xl font-bold" />
                   </NavLink>
-                  <NavLink
-                    to={
-                      "https://www.linkedin.com/company/connectingcoasttocoast/"
-                    }
-                  >
+                  <NavLink to={team.linkedin}>
                     <FaLinkedin className="text-white/80 text-3xl font-bold" />
                   </NavLink>
-                  <NavLink to={"https://www.connectingcoasttocoast.ca/"}>
+                  <NavLink to={team.web}>
                     <RxGlobe className="text-white/80 text-3xl font-bold" />
                   </NavLink>
                 </div>

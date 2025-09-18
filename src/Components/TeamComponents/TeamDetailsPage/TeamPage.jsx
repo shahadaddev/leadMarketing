@@ -6,6 +6,7 @@ import memberFive from "../../../assets/team/teamMemberFive.jpg";
 import memberSix from "../../../assets/team/teamMemberSix.jpg";
 import memberSeven from "../../../assets/team/teamMemberSeven.jpg";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
+import TeamPageTitle from "./TeamPageTitle";
 
 const TeamPage = () => {
   const teamSlider = [
@@ -76,8 +77,11 @@ const TeamPage = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      <section className="service-banner mt-12">
+      <section className="service-banner lg:mt-12">
         <div className="max-w-7xl mx-auto py-16 space-y-12">
+          <div>
+            <TeamPageTitle></TeamPageTitle>
+          </div>
           {teamSlider.map((team, index) => (
             <div
               key={index}

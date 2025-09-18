@@ -29,45 +29,52 @@ const WorkRightSlider = () => {
   const works = [
     {
       id: 1,
-      img: workThree,
-      title: "Imtiaj Jeha",
-      Designation: "Founder & Marketing Consultant",
+      img: workOne,
+      facebook: "https://www.facebook.com/nlhurricanes",
+      linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
+      web: "https://www.nlhurricanes.ca/",
     },
     {
       id: 2,
-      img: workFour,
-      title: "Fatema Fahima",
-      Designation: "Co-founder & The Creative geek",
+      img: workTwo,
+      facebook: "https://www.facebook.com/mogadorrestaurant.ca",
+      linkedin: "https://www.linkedin.com/company/mogadorrestaurant/",
+      web: "",
     },
     {
       id: 3,
-      img: workFive,
-      title: "Darren Martin",
-      Designation: "The Mentor",
+      img: workThree,
+      facebook: "https://facebook.com/darren.martin",
+      linkedin: "https://linkedin.com/in/darren-martin",
+      web: "https://darrenmartin.com",
     },
     {
       id: 4,
-      img: workSix,
-      title: "Rayyan Karim",
-      Designation: "Asst. Art Director",
+      img: workFour,
+      facebook: "https://www.facebook.com/capitolsalonnl",
+      linkedin: "https://www.linkedin.com/company/capitol-unisex-salon/",
+      web: "https://capitolsalonnl.com/",
     },
     {
       id: 5,
-      img: workSeven,
-      title: "Ashraf Mamun",
-      Designation: "Senior Copywriter",
+      img: workFive,
+      facebook: "https://www.facebook.com/capitolsalonnl",
+      linkedin: "https://www.linkedin.com/company/capitol-unisex-salon/",
+      web: "https://capitolsalonnl.com/",
     },
     {
       id: 6,
-      img: workOne,
-      title: "Istiak Sakib",
-      Designation: "Senior Visualizer",
+      img: workSix,
+      facebook: "https://www.facebook.com/mogadorrestaurant.ca",
+      linkedin: "https://www.linkedin.com/company/mogadorrestaurant/",
+      web: "",
     },
     {
       id: 7,
-      img: workTwo,
-      title: "Sanila Shawlin",
-      Designation: "Portfolio Manager",
+      img: workSeven,
+      facebook: "https://www.facebook.com/nlhurricanes",
+      linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
+      web: "https://www.nlhurricanes.ca/",
     },
   ];
 
@@ -161,19 +168,13 @@ const WorkRightSlider = () => {
         `}
               >
                 <div className="flex justify-center gap-4">
-                  <NavLink
-                    to={"https://www.facebook.com/connectingcoasttocoast"}
-                  >
+                  <NavLink to={team.facebook}>
                     <FaFacebook className="text-white/80 text-3xl font-bold" />
                   </NavLink>
-                  <NavLink
-                    to={
-                      "https://www.linkedin.com/company/connectingcoasttocoast/"
-                    }
-                  >
+                  <NavLink to={team.linkedin}>
                     <FaLinkedin className="text-white/80 text-3xl font-bold" />
                   </NavLink>
-                  <NavLink to={"https://www.connectingcoasttocoast.ca/"}>
+                  <NavLink to={team.web}>
                     <RxGlobe className="text-white/80 text-3xl font-bold" />
                   </NavLink>
                 </div>

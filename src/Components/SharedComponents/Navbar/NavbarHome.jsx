@@ -47,7 +47,7 @@ const NavbarHome = () => {
 
         {/* Desktop Navigation Menu */}
         <div className="w-8/12 hidden md:flex justify-center">
-          <ul className="flex xl:gap-10 lg:gap-6 md:gap-4">
+          <ul className="flex xl:gap-12 lg:gap-8 md:gap-4">
             {navigation.map((nav, index) => (
               <NavLink className={navigationStyle} key={index} to={nav.link}>
                 <li className="text-xl font-bold">{nav.name}</li>

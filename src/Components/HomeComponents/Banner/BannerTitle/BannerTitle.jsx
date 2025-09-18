@@ -3,7 +3,7 @@ import React from "react";
 const BannerTitle = () => {
   return (
     <div>
-      <h1 className="xl:text-6xl lg:text-5xl text-3xl lg:leading-14 leading-7 font-black text-center text-white/90">
+      <h1 className="xl:text-6xl lg:text-5xl text-3xl lg:leading-14 leading-7 font-black text-center text-white">
         Creative <span className="text-[#F40026]">Marketing</span> Solutions For{" "}
         <br /> Lasting Brand <span className="text-[#F40026]">Growth</span>
       </h1>
