@@ -1,11 +1,10 @@
 import { useState } from "react";
 import { AiOutlineSound } from "react-icons/ai";
 import { FaRegLightbulb } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
 import { IoMdPrint } from "react-icons/io";
 import { IoVideocam } from "react-icons/io5";
 import { LuBrain } from "react-icons/lu";
-import { MdInsertChart, MdOutlineEventNote } from "react-icons/md";
+import { MdInsertChart } from "react-icons/md";
 import { TbCode, TbTargetArrow } from "react-icons/tb";
 import { useNavigate } from "react-router";
 
