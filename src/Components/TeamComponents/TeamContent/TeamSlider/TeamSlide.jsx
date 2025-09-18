@@ -18,7 +18,7 @@ import memberFour from "../../../../assets/team/teamMemberFour.jpg";
 import memberFive from "../../../../assets/team/teamMemberFive.jpg";
 import memberSix from "../../../../assets/team/teamMemberSix.jpg";
 import memberSeven from "../../../../assets/team/teamMemberSeven.jpg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoClose } from "react-icons/io5";
 
 const TeamSlide = () => {
@@ -87,6 +87,19 @@ const TeamSlide = () => {
 `,
     },
   ];
+
+  useEffect(() => {
+    if (selectedTeam) {
+      document.body.classList.add("overflow-hidden");
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.classList.remove("overflow-hidden");
+      document.body.style.overflow = "auto";
+    }
+
+    // Cleanup if component unmounts
+    return () => document.body.classList.remove("overflow-hidden");
+  }, [selectedTeam]);
 
   return (
     <div className="">
@@ -179,36 +192,39 @@ const TeamSlide = () => {
           ))}
         </div>
       </Swiper>
+
+      {/* ------------------------------ */}
       {/* Popup Modal (outside Swiper so it won’t be clipped) */}
       {selectedTeam && (
-        <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-[9999] w-full">
-          <div className="flex justify-center items-center gap-8 bg-white p-6 rounded-3xl shadow-lg max-w-7xl w-full relative">
-            <div className="w-3/12">
+        <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-[9999] w-full lg:px-10 px-2">
+          <div
+            className="bg-white lg:p-6 p-4 rounded-3xl shadow-lg max-w-7xl w-full relative 
+                  h-[80vh] lg:h-auto overflow-y-auto flex flex-col items-center lg:flex-row gap-8"
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setSelectedTeam(null)}
+              className="absolute lg:top-6 lg:right-6 top-4 right-5 text-[#F40026] hover:scale-125 transition-all duration-300 cursor-pointer"
+            >
+              <IoClose className="text-4xl" />
+            </button>
+
+            {/* Image Section */}
+            <div className="w-full lg:w-3/12 flex-shrink-0 lg:pt-0 pt-10">
               <img
                 src={selectedTeam.img}
                 alt={selectedTeam.title}
-                className="w-full rounded-2xl"
+                className="w-full object-cover rounded-2xl"
               />
             </div>
-            <div className="w-10/12 bg-blue-100 text-gray-700 p-4 rounded-2xl">
-              <div className="flex justify-between">
-                <div>
-                  <h3 className="text-xl font-extrabold">
-                    {selectedTeam.title}
-                  </h3>
-                  <h5 className="text-lg font-medium">
-                    {selectedTeam.Designation}
-                  </h5>
-                </div>
-                <div>
-                  <button
-                    onClick={() => setSelectedTeam(null)}
-                    className="text-[#F40026] hover:scale-125 transition-all duration-300 cursor-pointer "
-                  >
-                    <IoClose className="text-4xl" />
-                  </button>
-                </div>
-              </div>
+
+            {/* Content Section */}
+            <div className="w-full lg:w-9/12 bg-blue-100 text-gray-700 p-4 rounded-2xl">
+              <h3 className="text-xl font-extrabold">{selectedTeam.title}</h3>
+              <h5 className="text-lg font-medium">
+                {selectedTeam.Designation}
+              </h5>
+
               <div className="pt-2">
                 {selectedTeam.details.split("\n\n").map((para, idx) => (
                   <p key={idx} className="space-y-2 mb-2">
