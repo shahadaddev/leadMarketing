@@ -6,6 +6,7 @@ import About from "../Components/AboutComponents/AboutPage/About";
 import ContactPage from "../Components/ContactComponents/ContactPage";
 import WorkPage from "../Components/OurWorkComponents/WorksPage/WorkPage";
 import CaseStudy from "../Components/CaseStudy/CaseStudy";
+import ServicePage from "../Components/ServicesComponents/ServicesPage/ServicePage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/works",
         element: <WorkPage></WorkPage>,
+      },
+      {
+        path: "/services",
+        element: <ServicePage></ServicePage>,
       },
       {
         path: "/caseStudy",
