@@ -23,51 +23,58 @@ import workSeven from "../../../assets/works/worksSlideSeven.jpg";
 import { NavLink } from "react-router";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { RxGlobe } from "react-icons/rx";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const WorkLeftSlider = () => {
   const works = [
     {
       id: 1,
       img: workOne,
-      title: "Imtiaj Jeha",
-      Designation: "Founder & Marketing Consultant",
+      facebook: "https://www.facebook.com/nlhurricanes",
+      linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
+      web: "https://www.nlhurricanes.ca/",
     },
     {
       id: 2,
       img: workTwo,
-      title: "Fatema Fahima",
-      Designation: "Co-founder & The Creative geek",
+      facebook: "https://www.facebook.com/mogadorrestaurant.ca",
+      linkedin: "https://www.linkedin.com/company/mogadorrestaurant/",
+      web: "",
     },
     {
       id: 3,
       img: workThree,
-      title: "Darren Martin",
-      Designation: "The Mentor",
+      facebook: "https://facebook.com/darren.martin",
+      linkedin: "https://linkedin.com/in/darren-martin",
+      web: "https://darrenmartin.com",
     },
     {
       id: 4,
       img: workFour,
-      title: "Rayyan Karim",
-      Designation: "Asst. Art Director",
+      facebook: "https://www.facebook.com/capitolsalonnl",
+      linkedin: "https://www.linkedin.com/company/capitol-unisex-salon/",
+      web: "https://capitolsalonnl.com/",
     },
     {
       id: 5,
       img: workFive,
-      title: "Ashraf Mamun",
-      Designation: "Senior Copywriter",
+      facebook: "https://www.facebook.com/capitolsalonnl",
+      linkedin: "https://www.linkedin.com/company/capitol-unisex-salon/",
+      web: "https://capitolsalonnl.com/",
     },
     {
       id: 6,
       img: workSix,
-      title: "Istiak Sakib",
-      Designation: "Senior Visualizer",
+      facebook: "https://www.facebook.com/mogadorrestaurant.ca",
+      linkedin: "https://www.linkedin.com/company/mogadorrestaurant/",
+      web: "",
     },
     {
       id: 7,
       img: workSeven,
-      title: "Sanila Shawlin",
-      Designation: "Portfolio Manager",
+      facebook: "https://www.facebook.com/nlhurricanes",
+      linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
+      web: "https://www.nlhurricanes.ca/",
     },
   ];
 
@@ -125,28 +132,6 @@ const WorkLeftSlider = () => {
       >
         {works.map((team, index) => (
           <SwiperSlide key={team.id} virtualIndex={index}>
-            {/* <div className="lg:block flex justify-center">
-              <div className="cursor-pointer relative">
-                <img className="rounded-xl w-full" src={team.img} alt="" />
-
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black/90 via-black/10 to-white/10"></div>
-
-                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center w-full">
-                  <div className="flex justify-center gap-4">
-                    <NavLink>
-                      <FaFacebook className="text-white/80 text-3xl font-bold flex justify-center"></FaFacebook>
-                    </NavLink>
-                    <NavLink>
-                      <FaLinkedin className="text-white/80 text-3xl font-bold flex justify-center"></FaLinkedin>
-                    </NavLink>
-                    <NavLink>
-                      <RxGlobe className="text-white/80 text-3xl font-bold flex justify-center"></RxGlobe>
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
             <div
               className={`relative cursor-pointer group`}
               onClick={toggleOverlay}

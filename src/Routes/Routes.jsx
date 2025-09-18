@@ -8,6 +8,7 @@ import WorkPage from "../Components/OurWorkComponents/WorksPage/WorkPage";
 import CaseStudy from "../Components/CaseStudy/CaseStudy";
 import ServicePage from "../Components/ServicesComponents/ServicesPage/ServicePage";
 import CareerPage from "../Components/CareerComponent/CareerPage";
+import TeamPage from "../Components/TeamComponents/TeamDetailsPage/TeamPage";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage></ContactPage>,
+      },
+      {
+        path: "/team",
+        element: <TeamPage></TeamPage>,
       },
     ],
   },
