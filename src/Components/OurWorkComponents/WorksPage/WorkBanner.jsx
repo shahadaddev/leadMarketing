@@ -2,9 +2,9 @@ import WorkLeftContent from "../WorkContent/WorkLeftContent";
 
 const WorkBanner = () => {
   return (
-    <div className="bg-gray-100 p-10 rounded-3xl">
-      <div className="flex w-full items-center">
-        <div className="space-y-4 lg:w-5/12">
+    <div className="bg-gray-100 lg:p-10 px-5 py-8 rounded-3xl">
+      <div className="flex lg:flex-row flex-col w-full items-center space-y-8 lg:space-y-0">
+        <div className="lg:space-y-4 lg:w-5/12">
           <h2 className="xl:text-[80px] lg:text-7xl text-5xl font-black uppercase xl:leading-17 lg:leading-14 leading-9 text-gray-700">
             The <br /> <span className="text-[#F40026]">stories</span> <br />{" "}
             We've <br /> built

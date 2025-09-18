@@ -59,7 +59,7 @@ const WorkContentSlider = ({ work }) => {
             <img
               src={img}
               alt={`${work.title} ${i + 1}`}
-              className="w-full h-auto rounded-2xl shadow-lg"
+              className="lg:w-full h-auto rounded-2xl shadow-lg"
             />
           </SwiperSlide>
         ))}

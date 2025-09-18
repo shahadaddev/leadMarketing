@@ -145,27 +145,66 @@ const WorkPageContent = () => {
   ];
 
   return (
+    // <div className="">
+    //   <div className="space-y-36 text-gray-700 max-w-7xl mx-auto">
+    //     {worksContent.map((work, index) => (
+    //       <div
+    //         key={work.id}
+    //         className={`flex flex-col md:flex-row items-center justify-between mx-4 gap-8 ${
+    //           index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+    //         }`}
+    //       >
+    //         {/* Content Section */}
+    //         <div className="md:w-7/12 space-y-5 p-10 rounded-2xl bg-white/30 backdrop-blur-2xl">
+    //           <h2 className="text-5xl font-black">{work.title}</h2>
+    //           <p className="text-xl font-medium">{work.paragraph}</p>
+    //           <ul className="list-disc list-inside space-y-1 text-lg font-medium">
+    //             {work.bulletPoints.map((point, i) => (
+    //               <li key={i}>{point}</li>
+    //             ))}
+    //           </ul>
+    //           <div className="lg:mt-10 lg:w-1/2 lg:mx-0 w-5/6 mx-auto">
+    //             <NavLink to={"/aboutUs"}>
+    //               <h3 className="lg:text-lg font-bold bg-white text-[#F40026] px-10 py-4 rounded-xl flex items-center justify-center cursor-pointer hover:bg-[#F40026] hover:backdrop-blur-md border-2 border-[#F40026] hover:text-white transition-all duration-700 hover-container gap-2">
+    //                 Explore More{" "}
+    //                 <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
+    //               </h3>
+    //             </NavLink>
+    //           </div>
+    //         </div>
+
+    //         {/* Image Slider Section */}
+    //         <div className="md:w-5/12">
+    //           <WorkContentSlider work={work} key={work.id}></WorkContentSlider>
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </div>
     <div className="">
-      <div className="space-y-36 text-gray-700 max-w-7xl mx-auto">
+      <div className="xl:space-y-36 space-y-14 text-gray-700 max-w-7xl mx-auto">
         {worksContent.map((work, index) => (
           <div
             key={work.id}
-            className={`flex flex-col md:flex-row items-center justify-between gap-8 ${
-              index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            }`}
+            className={`flex flex-col md:items-center md:justify-between mx-4 gap-8 
+          ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
           >
             {/* Content Section */}
-            <div className="md:w-7/12 space-y-5 p-10 rounded-2xl bg-white/30 backdrop-blur-2xl">
-              <h2 className="text-5xl font-black">{work.title}</h2>
-              <p className="text-xl font-medium">{work.paragraph}</p>
-              <ul className="list-disc list-inside space-y-1 text-lg font-medium">
+            <div className="md:w-7/12 lg:w-6/12 space-y-5 xl:p-10 px-5 py-8 rounded-2xl bg-white/30 backdrop-blur-2xl">
+              <h2 className="xl:text-5xl lg:text-4xl text-3xl font-black">
+                {work.title}
+              </h2>
+              <p className="xl:text-xl lg:text-lg text-md font-medium">
+                {work.paragraph}
+              </p>
+              <ul className="list-disc list-inside space-y-1 lg:text-lg font-medium">
                 {work.bulletPoints.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}
               </ul>
-              <div className="lg:mt-10 lg:w-1/2 lg:mx-0 w-5/6 mx-auto">
+              <div className="lg:mt-10 xl:w-1/2 lg:mx-0 lg:w-4/6 mx-auto">
                 <NavLink to={"/aboutUs"}>
-                  <h3 className="lg:text-lg font-bold bg-white text-[#F40026] px-10 py-4 rounded-xl flex items-center justify-center cursor-pointer hover:bg-[#F40026] hover:backdrop-blur-md border-2 border-[#F40026] hover:text-white transition-all duration-700 hover-container gap-2">
+                  <h3 className="lg:text-lg font-bold bg-white text-[#F40026] px-10 xl:py-4 py-3 rounded-xl flex items-center justify-center cursor-pointer hover:bg-[#F40026] hover:backdrop-blur-md border-2 border-[#F40026] hover:text-white transition-all duration-700 hover-container gap-2">
                     Explore More{" "}
                     <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
                   </h3>
@@ -175,7 +214,7 @@ const WorkPageContent = () => {
 
             {/* Image Slider Section */}
             <div className="md:w-5/12">
-              <WorkContentSlider work={work} key={work.id}></WorkContentSlider>
+              <WorkContentSlider work={work} />
             </div>
           </div>
         ))}
