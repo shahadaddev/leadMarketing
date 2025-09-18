@@ -13,7 +13,25 @@ const CaseStudy = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="max-w-7xl mx-auto py-16">
+      <div className="max-w-7xl mx-auto">
+        <div className="space-y-4 py-16 flex justify-between gap-16">
+          <h2 className="lg:text-7xl text-5xl font-black uppercase xl:leading-15 lg:leading-14 leading-9 text-gray-700 text-left">
+            Our{" "}
+            <span className="text-[#F40026]">
+              Project <br />
+            </span>{" "}
+            and Cases
+          </h2>
+          <p className="text-left text-lg pt-8 font-medium">
+            Proven Strategies, Real-World Impact — uncovering the lessons behind
+            every success. Each case study highlights real challenges,
+            innovative solutions, and measurable outcomes. These stories reflect
+            resilience, creativity, and collaboration, offering both inspiration
+            and practical insights. They stand as proof that the right approach
+            can turn obstacles into meaningful opportunities for growth and
+            lasting success.
+          </p>
+        </div>
         <section className="grid lg:grid-cols-2 grid-cols-1 gap-10">
           <div>
             <img src={caseOne} alt="" />
