@@ -11,11 +11,11 @@ const About = () => {
       <div className="text-gray-700 h-fit xl:pt-24 xl:py-0 pt-14 lg:mx-0 lg:mt-8 company-content">
         <AboutPageContent></AboutPageContent>
       </div>
-      {/* <MissionVisionContent></MissionVisionContent>
+      <MissionVisionContent></MissionVisionContent>
       <div>
         <WhyChooseUs></WhyChooseUs>
       </div>
-      <Team></Team> */}
+      <Team></Team>
     </div>
   );
 };

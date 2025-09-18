@@ -1,7 +1,7 @@
 const WhyChooseUs = () => {
   return (
     <div className="service-banner mt-20 h-fit">
-      <div className="max-w-7xl mx-auto text-gray-700 py-16">
+      <div className="xl:max-w-7xl xl:mx-auto text-gray-700 py-16 mx-4">
         <div>
           <h1 className="lg:text-6xl text-5xl uppercase font-black text-center">
             Why <span className="text-[#F40026]">Choose</span> Us
@@ -12,10 +12,12 @@ const WhyChooseUs = () => {
             clients, partners, and one another.
           </p>
         </div>
-        <section className="pt-12 grid grid-cols-2 gap-8">
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">1</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+        <section className="pt-12 grid lg:grid-cols-2 grid-cols-1 gap-8">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              1
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Creativity</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
@@ -26,9 +28,11 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">2</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              2
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Innovation</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
@@ -38,9 +42,11 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">3</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              3
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Excellence</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
@@ -50,9 +56,11 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">4</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              4
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Integrity</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
@@ -63,9 +71,11 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">5</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              5
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Collaboration</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
@@ -75,9 +85,11 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center gap-4">
-            <h1 className="text-[160px] font-black w-2/12">6</h1>
-            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 w-10/12 h-64">
+          <div className="flex justify-between lg:items-center items-start gap-4">
+            <h1 className="xl:text-[160px] lg:text-[140px] text-[120px] font-black lg:w-2/12 w-1/12 -mt-8 lg:-mt-0">
+              6
+            </h1>
+            <div className="bg-white/30 backdrop-blur-xl p-8 rounded-2xl space-y-4 lg:w-10/12 w-9/12">
               <h3 className="text-2xl font-extrabold">Client-Centricity</h3>
               <hr className="text-gray-400" />
               <p className="text-lg">
