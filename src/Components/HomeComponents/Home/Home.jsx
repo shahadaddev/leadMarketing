@@ -6,8 +6,6 @@ import Services from "../../ServicesComponents/Services/Services";
 import Team from "../../TeamComponents/Team/Team";
 import Testimonial from "../../Testimonial/Testimonial/Testimonial";
 import Banner from "../Banner/Banner";
-// import questionBg from "../../../assets/images/questionBg.JPG";
-import Navbar from "../../SharedComponents/Navbar/Navbar";
 import "./Home.css";
 import OurWorks from "../../OurWorkComponents/OurWorks";
 import OurClient from "../../OurClientComponent/OurClient";

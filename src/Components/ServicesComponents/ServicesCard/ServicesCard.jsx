@@ -14,7 +14,9 @@ const ServicesCard = () => {
 
   const handleCardClick = (id) => {
     setActiveCard(activeCard === id ? null : id);
-    navigate("/services");
+    if (window.innerWidth >= 1024) {
+      navigate("/services");
+    }
   };
 
   const services = [
@@ -93,23 +95,8 @@ const ServicesCard = () => {
       ],
       height: "h-[350px]",
     },
-    // {
-    //   id: 6,
-    //   title: "Event & Activation",
-    //   icon: MdOutlineEventNote,
-    //   description:
-    //     "Events create moments, activations create impact. From planning to execution, we design experiences that connect your brand with people in meaningful and memorable ways.",
-    //   list: [
-    //     "Event Strategy & Planning",
-    //     "Brand Activations & Launches",
-    //     "Corporate & Community Events",
-    //     "Experiential Marketing Campaigns",
-    //     "On-Site Managements & Execution",
-    //   ],
-    //   height: "h-[350px]",
-    // },
     {
-      id: 7,
+      id: 6,
       title: "Print & Packaging",
       icon: IoMdPrint,
       description:
@@ -124,7 +111,7 @@ const ServicesCard = () => {
       height: "h-[350px]",
     },
     {
-      id: 8,
+      id: 7,
       title: "Lead Generation",
       icon: TbTargetArrow,
       description:
@@ -139,7 +126,7 @@ const ServicesCard = () => {
       height: "h-[350px]",
     },
     {
-      id: 9,
+      id: 8,
       title: "Strategy",
       icon: FaRegLightbulb,
       description:
