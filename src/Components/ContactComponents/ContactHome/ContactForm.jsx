@@ -17,8 +17,11 @@ const ContactForm = () => {
         <div>
           <ContactTitle></ContactTitle>
         </div>
-        <section className="bg-white/30 backdrop-blur-xl shadow-2xl rounded-3xl lg:px-10 px-5 lg:py-20 py-8 flex lg:flex-row flex-col-reverse justify-center gap-12 xl:w-5/6 lg:w-11/12 mx-auto lg:mt-20 mt-14">
-          <ContactContent></ContactContent>
+        <section className="bg-white/30 backdrop-blur-xl shadow-2xl rounded-3xl lg:px-10 px-5 lg:py-20 py-8 flex lg:flex-row flex-col-reverse justify-center items-center gap-12 xl:w-5/6 lg:w-11/12 mx-auto lg:mt-20 mt-14">
+          {/* ----------------- */}
+          <div className="lg:w-5/12">
+            <ContactContent></ContactContent>
+          </div>
 
           {/* Form */}
           <div className="lg:w-7/12">

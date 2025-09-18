@@ -14,7 +14,17 @@ import "swiper/css/scrollbar";
 
 import clientOne from "../../../assets/clients/clientOne.png";
 import clientTwo from "../../../assets/clients/clientTwo.png";
-import clientThree from "../../../assets/clients/clientOne.png";
+import clientThree from "../../../assets/clients/10.webp";
+import clientFour from "../../../assets/clients/12.webp";
+import clientFive from "../../../assets/clients/7.webp";
+import clientSix from "../../../assets/clients/9.webp";
+import clientSeven from "../../../assets/clients/14.webp";
+import clientEight from "../../../assets/clients/15.webp";
+import clientNine from "../../../assets/clients/17.webp";
+import clientTen from "../../../assets/clients/22.webp";
+import clientEleven from "../../../assets/clients/24.webp";
+import clientTwelve from "../../../assets/clients/3.webp";
+import clientThirteen from "../../../assets/clients/6.webp";
 import { useState, useEffect } from "react";
 
 const ClientSlider = () => {
@@ -22,44 +32,54 @@ const ClientSlider = () => {
     {
       id: 1,
       img: clientOne,
-      title: "Imtiaj Jeha",
-      Designation: "Founder & Marketing Consultant",
     },
     {
       id: 2,
       img: clientTwo,
-      title: "Fatema Fahima",
-      Designation: "Co-founder & The Creative geek",
     },
     {
       id: 3,
       img: clientThree,
-      title: "Darren Martin",
-      Designation: "The Mentor",
     },
     {
       id: 4,
-      img: clientOne,
-      title: "Rayyan Karim",
-      Designation: "Asst. Art Director",
+      img: clientFour,
     },
     {
       id: 5,
-      img: clientTwo,
-      title: "Ashraf Mamun",
-      Designation: "Senior Copywriter",
+      img: clientFive,
     },
     {
       id: 6,
-      img: clientThree,
-      title: "Istiak Sakib",
-      Designation: "Senior Visualizer",
+      img: clientSix,
     },
     {
       id: 7,
-      img: clientTwo,
-      title: "Sanila Shawlin",
-      Designation: "Portfolio Manager",
+      img: clientSeven,
+    },
+    {
+      id: 8,
+      img: clientEight,
+    },
+    {
+      id: 9,
+      img: clientNine,
+    },
+    {
+      id: 10,
+      img: clientTen,
+    },
+    {
+      id: 11,
+      img: clientEleven,
+    },
+    {
+      id: 12,
+      img: clientTwelve,
+    },
+    {
+      id: 13,
+      img: clientThirteen,
     },
   ];
 
