@@ -12,13 +12,22 @@ import "./Home.css";
 import OurWorks from "../../OurWorkComponents/OurWorks";
 import OurClient from "../../OurClientComponent/OurClient";
 import Location from "../../Location/Location";
+import NavbarHome from "../../SharedComponents/Navbar/NavbarHome";
+import homeBanner from "../../../assets/banner/homeBanner.jpg";
 
 const Home = () => {
   return (
     <div>
-      <div className="home-content">
-        <Navbar></Navbar>
-        <Banner></Banner>
+      <div className="relative h-fit">
+        <div
+          className="absolute inset-0 bg-cover bg-center "
+          style={{ backgroundImage: `url(${homeBanner})` }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-red-800/70"></div>
+        <div className="relative">
+          <NavbarHome></NavbarHome>
+          <Banner></Banner>
+        </div>
       </div>
       <div className="bg-gray-50">
         <AboutUs></AboutUs>

@@ -1,9 +1,10 @@
 .home-content {
   background-image: linear-gradient(
-      /* rgba(100, 100, 200, 0.6), */ rgba(255, 255, 255, 0.1),
-      rgba(8, 42, 78, 0.8) /* rgba(100, 100, 200, 0.8) */
-        /* rgba(255, 255, 255, 0.9),
-      rgba(220, 0, 38, 0.4) */
+      to left,
+      /* rgba(100, 100, 200, 0.6), */ /* rgba(255, 255, 255, 0.1), */
+        /* rgba(8, 42, 78, 0.8) rgba(100, 100, 200, 0.8) */
+        rgba(220, 0, 38, 0.45),
+      rgba(220, 0, 38, 0.68)
     ),
     url("../../../assets/banner/homeBanner.jpg");
   background-repeat: no-repeat;
