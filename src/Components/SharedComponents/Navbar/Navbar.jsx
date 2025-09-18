@@ -77,7 +77,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-4/5 bg-gray-800 text-gray-100 z-10 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-4/5 bg-gray-700 text-gray-100 z-10 transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden flex flex-col items-center py-8 gap-6`}
       >

@@ -4,19 +4,19 @@ import AboutPageHighlightTwo from "../AboutPageHighlight/AboutPageHighlightTwo";
 
 const AboutPageContent = () => {
   return (
-    <div className="">
+    <div className="mx-4 lg:mx-5 xl:mx-0">
       <div className="w-full xl:gap-8 lg:gap-5">
         {/* ------------ About Us Details ------------- */}
-        <div className="flex justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 px-12 py-22 rounded-3xl">
-          <div className="xl:w-3/12 space-y-4">
-            <h1 className="lg:text-8xl lg:leading-18 text-5xl uppercase font-black text-left">
+        <div className="flex lg:flex-row flex-col justify-center items-center gap-12 max-w-7xl mx-auto bg-white/60 xl:px-12 lg:px-8 px-5 lg:py-22 py-10 rounded-3xl">
+          <div className="xl:w-3/12 lg:w-4/12 w-full lg:space-y-4 space-y-2">
+            <h1 className="xl:text-[90px] lg:text-[80px] xl:leading-17 lg:leading-15 text-5xl leading-9 uppercase font-black text-left">
               who <br /> <span className="text-[#F40026]">we</span> <br /> are
             </h1>
             <p className="text-lg font-medium pt-5">
               Our work isn't about ads. It's about creating impact that lasts.
             </p>
           </div>
-          <section className="xl:w-8/12 max-w-5xl mx-auto lg:w-9/12 lg:pt-0 pt-4">
+          <section className="xl:w-8/12 lg:max-w-5xl lg:mx-auto lg:w-8/12 lg:pt-0 pt-4">
             <div className="lg:p-8 px-5 pt-12 rounded-xl text-gray-700 border-t-2 border-l-2 border-[#F40026] relative">
               <p className="lg:text-xl text-lg font-medium lg:leading-8 leading-6 text-justify">
                 Lead Marketing Inc. is a full-service marketing and
@@ -50,7 +50,7 @@ const AboutPageContent = () => {
 
         {/* About Highlight Icons */}
         <div>
-          <div className="py-24 space-y-12 max-w-6xl mx-auto">
+          <div className="lg:py-24 lg:space-y-12 lg:max-w-6xl mx-auto lg:block flex gap-4">
             <AboutPageHighlight></AboutPageHighlight>
             <AboutPageHighlightTwo></AboutPageHighlightTwo>
           </div>

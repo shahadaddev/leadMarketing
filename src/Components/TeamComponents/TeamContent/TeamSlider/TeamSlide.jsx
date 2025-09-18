@@ -196,10 +196,10 @@ const TeamSlide = () => {
       {/* ------------------------------ */}
       {/* Popup Modal (outside Swiper so it won’t be clipped) */}
       {selectedTeam && (
-        <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-[9999] w-full lg:px-10 px-2">
+        <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-[9999] w-full lg:px-10 px-5">
           <div
             className="bg-white lg:p-6 p-4 rounded-3xl shadow-lg max-w-7xl w-full relative 
-                  h-[80vh] lg:h-auto overflow-y-auto flex flex-col items-center lg:flex-row gap-8"
+                  h-[70vh] lg:h-auto overflow-y-auto flex flex-col items-center lg:flex-row gap-8"
           >
             {/* Close Button */}
             <button
@@ -210,7 +210,7 @@ const TeamSlide = () => {
             </button>
 
             {/* Image Section */}
-            <div className="w-full lg:w-3/12 flex-shrink-0 lg:pt-0 pt-10">
+            <div className="w-3/4 lg:w-3/12 flex-shrink-0 lg:pt-0 pt-10">
               <img
                 src={selectedTeam.img}
                 alt={selectedTeam.title}

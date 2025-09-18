@@ -10,14 +10,14 @@ const ContactForm = () => {
         <div>
           <ContactTitle></ContactTitle>
         </div>
-        <section className="bg-white/30 backdrop-blur-xl shadow-2xl rounded-3xl lg:px-10 px-5 lg:py-20 py-8 flex lg:flex-row flex-col-reverse justify-center items-center gap-12 xl:w-5/6 lg:w-11/12 mx-auto lg:mt-20 mt-14">
+        <section className="bg-white/30 backdrop-blur-xl shadow-2xl rounded-3xl lg:px-10 px-6 lg:py-20 py-10 flex lg:flex-row flex-col-reverse justify-center items-center gap-12 xl:w-5/6 lg:w-11/12 lg:mx-auto mx-2 lg:mt-20 mt-14">
           {/* ----------------- */}
-          <div className="lg:w-5/12">
+          <div className="lg:w-5/12 lg:block hidden">
             <ContactContent></ContactContent>
           </div>
 
           {/* Form */}
-          <div className="lg:w-7/12">
+          <div className="lg:w-7/12 w-full">
             <form action="" className="space-y-5 w-full">
               <div className="flex lg:flex-row flex-col lg:gap-14 gap-8">
                 <div className="space-y-2">

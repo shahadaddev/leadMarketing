@@ -58,7 +58,7 @@ const NavbarHome = () => {
 
         {/* Mobile Hamburger */}
         <div className="md:hidden flex items-center">
-          <button className="text-[#F40026]" onClick={() => setIsOpen(!isOpen)}>
+          <button className="text-white" onClick={() => setIsOpen(!isOpen)}>
             <HiMenuAlt1 className="text-4xl" />
           </button>
         </div>
