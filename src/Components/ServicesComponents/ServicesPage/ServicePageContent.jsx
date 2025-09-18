@@ -78,8 +78,8 @@ const ServicePageContent = () => {
         "TVC, OVC, AV Production",
         "Documentary Filmmaking",
         "Music Video",
-        "Professional Photography(Product, Fashion & All)",
         "Animation & Motion Graphics",
+        "Professional Photography(Product, Fashion & All)",
       ],
       height: "h-[350px]",
     },
@@ -148,8 +148,8 @@ const ServicePageContent = () => {
             key={service.id}
             className={`flex flex-col md:flex-row items-center gap-14 ${
               index % 2 === 0
-                ? "md:flex-row bg-black/50 rounded-3xl px-8 py-8 text-white"
-                : "md:flex-row-reverse bg-white/50 rounded-3xl px-8 py-8"
+                ? "md:flex-row bg-white/30 backdrop-blur-lg rounded-3xl px-8 py-8"
+                : "md:flex-row-reverse bg-black/30 backdrop-blur-lg rounded-3xl px-8 py-8 text-white"
             }`}
           >
             {/* Left Side: Icon + Title + Description */}
@@ -174,8 +174,8 @@ const ServicePageContent = () => {
                     key={i}
                     className={`px-4 py-8 rounded-2xl  cursor-pointer  ${
                       index % 2 === 0
-                        ? "bg-black/30 text-white border-2 border-black/0 hover:bg-black"
-                        : "bg-white/50 text-gray-700 hover:bg-white"
+                        ? "bg-white/50 text-gray-700 hover:bg-white"
+                        : "bg-black/30 text-white border-2 border-black/0 hover:bg-black"
                     }`}
                   >
                     {point}

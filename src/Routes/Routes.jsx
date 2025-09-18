@@ -7,6 +7,7 @@ import ContactPage from "../Components/ContactComponents/ContactPage";
 import WorkPage from "../Components/OurWorkComponents/WorksPage/WorkPage";
 import CaseStudy from "../Components/CaseStudy/CaseStudy";
 import ServicePage from "../Components/ServicesComponents/ServicesPage/ServicePage";
+import CareerPage from "../Components/CareerComponent/CareerPage";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/caseStudy",
         element: <CaseStudy></CaseStudy>,
+      },
+      {
+        path: "/career",
+        element: <CareerPage></CareerPage>,
       },
       {
         path: "/contact",

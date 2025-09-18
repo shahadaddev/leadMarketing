@@ -13,8 +13,8 @@ const CaseStudy = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="max-w-7xl mx-auto">
-        <div className="space-y-4 xl:py-28 py-16 flex justify-between gap-16">
+      <div className="max-w-7xl mx-auto pt-24 mt-8">
+        <div className="space-y-4 px-12 py-16 flex justify-between gap-16 bg-gray-100 rounded-3xl mb-24">
           <h2 className="lg:text-7xl text-5xl font-black uppercase xl:leading-15 lg:leading-14 leading-9 text-gray-700 text-left">
             Our{" "}
             <span className="text-[#F40026]">
