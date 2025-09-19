@@ -8,12 +8,14 @@ import caseSix from "../../assets/cases/Untitled-1-15-min.webp";
 import caseSeven from "../../assets/cases/Untitled-1-14-min.webp";
 import caseEight from "../../assets/cases/Untitled-1-17-min.webp";
 import caseNine from "../../assets/cases/Untitled-1-16-min.webp";
+import caseTen from "../../assets/cases/case for ij web 1.jpg";
+import caseEleven from "../../assets/cases/Case Study.jpg";
 
 const CaseStudy = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="max-w-7xl mx-auto lg:pt-24 lg:mt-8 pb-8">
+      <div className="max-w-7xl xl:mx-auto lg:pt-24 lg:mt-8 pb-8 mx-5">
         <div className="lg:space-y-4 lg:px-12 px-5 lg:py-16 py-8 flex lg:flex-row flex-col justify-between lg:gap-16 gap-8 bg-gray-100 rounded-3xl lg:mb-24 mb-12 mx-5 lg:mx-0">
           {/* --------------- */}
           <h2 className="lg:text-7xl text-4xl font-black uppercase xl:leading-15 lg:leading-14 leading-7 text-gray-700 text-left">
@@ -37,31 +39,81 @@ const CaseStudy = () => {
         </div>
         <section className="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 mx-5 lg:mx-0">
           <div>
-            <img src={caseOne} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseOne}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseTwo} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseTwo}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseThree} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseThree}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseFour} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseFour}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseFive} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseFive}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseSix} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseSix}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseSeven} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseSeven}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseEight} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseEight}
+              alt=""
+            />
           </div>
           <div>
-            <img src={caseNine} alt="" />
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseNine}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseTen}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="lg:w-[620px] xl:h-[500px] lg:h-[420px]"
+              src={caseEleven}
+              alt=""
+            />
           </div>
         </section>
       </div>

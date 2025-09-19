@@ -9,7 +9,6 @@ const ContactPage = () => {
       <Navbar></Navbar>
       <div className="company-content lg:mt-8">
         <ContactForm></ContactForm>
-        <FrequentlyQuestion></FrequentlyQuestion>
       </div>
     </div>
   );

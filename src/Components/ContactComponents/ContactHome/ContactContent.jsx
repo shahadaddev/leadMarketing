@@ -16,7 +16,7 @@ const ContactContent = () => {
               <GoArrowUpRight className="lg:text-3xl text-2xl font-bold hover-arrow" />
             </h5>
             <h6 className="text-lg text-emerald-700 font-medium">
-              info@leadmarketingglobal.com
+              hello.leadmarketing@gmail.com
             </h6>
           </div>
         </div>

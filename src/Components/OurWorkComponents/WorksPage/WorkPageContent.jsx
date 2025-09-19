@@ -18,14 +18,16 @@ const WorkPageContent = () => {
   const worksContent = [
     {
       id: 1,
-      title: "Mogador",
+      title: "Mogador Restaurant",
       paragraph:
-        "A full-stack online store with product browsing, cart functionality, and secure checkout.",
+        "Mogador Restaurant is a fully Halal eatery in St. John’s, NL, Canada, offering authentic Shawarma, nachos, tacos, and a fusion of Mexican and Moroccan flavors.",
       images: [mogaImg1, mogaImg2, mogaImg3, mogaImg4],
       bulletPoints: [
-        "User authentication",
-        "Payment gateway support",
-        "Product search and filters",
+        "Logo design",
+        "Brand Identity design",
+        "Web design and development",
+        "Social media management",
+        "Photo and video production",
       ],
     },
     {
@@ -33,26 +35,27 @@ const WorkPageContent = () => {
       title: "BSRM",
       paragraph:
         "Bangladesh’s top steel manufacturer produces high-strength steel products. A cornerstone in building the nation’s infrastructure since 1952.",
-      images: [
-        bsrmImg1,
-        bsrmImg2,
-        // "portfolio-projects.png",
-      ],
+      images: [bsrmImg1, bsrmImg2],
       bulletPoints: [
         "OVC",
         "Customer Testimonials",
         "Photo Shoot",
         "Video Shoot",
-        "Brochure",
+        "Brochure Design",
       ],
     },
     {
       id: 3,
       title: "NL Hurricanes",
       paragraph:
-        "A blogging platform where users can write, edit, and publish articles with markdown support.",
+        "NL Hurricanes is a dynamic cricket team based in St. John’s, NL, Canada, founded in 2020.",
       images: [hc1, hc2, hc3],
-      bulletPoints: ["Markdown editor", "SEO-friendly URLs", "Admin dashboard"],
+      bulletPoints: [
+        "Brand Identity design",
+        "Web design and development",
+        "Social media management",
+        "Photo and video production",
+      ],
     },
     {
       id: 4,
@@ -166,14 +169,14 @@ const WorkPageContent = () => {
                   <li key={i}>{point}</li>
                 ))}
               </ul>
-              <div className="lg:mt-10 xl:w-1/2 lg:mx-0 lg:w-4/6 mx-auto">
+              {/* <div className="lg:mt-10 xl:w-1/2 lg:mx-0 lg:w-4/6 mx-auto">
                 <NavLink to={"/works"}>
                   <h3 className="lg:text-lg font-bold bg-white text-[#F40026] px-10 xl:py-4 py-3 rounded-xl flex items-center justify-center cursor-pointer hover:bg-[#F40026] hover:backdrop-blur-md border-2 border-[#F40026] hover:text-white transition-all duration-700 hover-container gap-2">
                     Explore More{" "}
                     <GoArrowUpRight className="text-3xl font-bold hover-arrow" />
                   </h3>
                 </NavLink>
-              </div>
+              </div> */}
             </div>
 
             {/* Image Slider Section */}

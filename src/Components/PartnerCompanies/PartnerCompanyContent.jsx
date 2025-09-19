@@ -14,7 +14,7 @@ const PartnerCompanyContent = () => {
         <div className="lg:flex justify-end">
           <div
             className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl xl:h-[620px] xl:mt-36 lg:shadow-xl shadow-lg"
+        rounded-2xl xl:h-[620px] xl:mt-40 lg:shadow-xl shadow-lg"
           >
             <div className="p-4">
               <img src={companyOne} className="rounded-xl" alt="" />
@@ -39,7 +39,7 @@ const PartnerCompanyContent = () => {
         <div className="lg:flex justify-start">
           <div
             className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl xl:h-[640px] shadow-xl"
+        rounded-2xl xl:h-[900px] shadow-xl"
           >
             <div className="p-4">
               <img src={companyTwo} className="rounded-xl" alt="" />
@@ -47,15 +47,23 @@ const PartnerCompanyContent = () => {
             <div className=" px-8 pb-6 py-4 lg:w-[380px] space-y-4">
               <h4 className="text-2xl font-extrabold">Lead Bangladesh</h4>
               <p className="text-justify">
-                Lead Bangladesh Inc. serves as a full-service Bangladesh and
-                communications agency and the global partner of Lead Bangladesh
-                Ltd., proudly supporting clients around the world for over a
-                decade. The agency combines creative expertise with data-driven
-                strategies to deliver powerful, effective solutions that help
-                brands stay relevant and adapt to ever-evolving technologies.
-                Trusted by more than 400 clients, Lead Bangladesh Inc. drives
-                growth and performance through innovative ideas and meticulous
-                execution.
+                Lead Bangladesh is a dynamic and visionary business group that
+                began its transformative journey in 2015. Our foundation is
+                built on a profound passion for delivering creative,
+                professional, and technological services that leave a lasting
+                impact. As a registered private limited company under the
+                Registrar of Joint Stock Companies & Firms (RJSC) in Bangladesh,
+                and also registered in Canada, the UAE, and the USA, our journey
+                is driven by passion and innovation. Supported by data-driven
+                analysis and a team of skilled creatives, we develop unique
+                business strategies, generate innovative ideas, and execute
+                campaigns and events, and provide cutting-edge technology
+                services, including web design and development, that exceed
+                expectations. What sets Lead Bangladesh apart is not just our
+                services but the positive difference our clients make in the
+                world. Our journey is a testament to the trust our clients place
+                in us, and we take pride in being architects of their success
+                stories.
               </p>
             </div>
           </div>
@@ -65,7 +73,7 @@ const PartnerCompanyContent = () => {
         <div className="lg:flex justify-center lg:col-span-2">
           <div
             className="bg-white/50 backdrop-blur-3xl
-        rounded-2xl xl:h-[620px] xl:mt-36 shadow-xl"
+        rounded-2xl xl:h-[620px] xl:mt-40 shadow-xl"
           >
             <div className="p-4">
               <img src={companyThree} className="rounded-xl" alt="" />

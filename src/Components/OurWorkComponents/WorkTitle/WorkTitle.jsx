@@ -20,10 +20,12 @@ const WorkTitle = () => {
       <div className="lg:w-6/12 lg:flex lg:flex-col items-center justify-between lg:pt-12 pt-5 space-y-8 lg:space-y-8">
         <div className="">
           <p className="text-justify text-lg lg:w-11/12 lg:leading-7 leading-6">
-            At Lead Marketing Inc, we offer a full range of marketing services,
-            from strategic branding and digital marketing to content creation
-            and campaign management. Our expertise ensures your brand stands out
-            and thrives in a competitive market.
+            At Lead Marketing Inc., we create bold and meaningful content that
+            speaks for your brand. From strategic branding and digital marketing
+            to content creation and campaign management, every piece we produce
+            is designed to showcase your product, tell your story, and capture
+            attention. Our goal is simple: make your brand stand out and thrive
+            in a competitive market.
           </p>
         </div>
         <WorkHomeButton></WorkHomeButton>

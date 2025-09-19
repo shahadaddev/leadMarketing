@@ -31,7 +31,7 @@ const FooterContent = () => {
                   <span className="text-lg font-bold">Email:</span>{" "}
                   <Link>
                     <a href="mailto:office@leadmarketingglobal.com">
-                      office@leadmarketingglobal.com
+                      hello.leadmarketing@gmail.com
                     </a>
                   </Link>
                 </p>

@@ -13,9 +13,12 @@ const CareerPage = () => {
               Join <br /> Our <br />{" "}
               <span className="text-[#F40026]">Team</span>
             </h2>
-            <p className="lg:w-3/4 lg:text-lg font-medium pt-5">
-              Grow, innovate, and make an impact with us — discover
-              opportunities where your skills and passion drive real success.
+            <p className="lg:w-4/5 lg:text-lg font-medium pt-5">
+              We’re not hiring for any specific positions at the moment, but
+              we’re always on the lookout for creative minds. If you’re a
+              digital marketing enthusiast with a knack for innovative
+              strategies and clever hacks, feel free to send your resume to
+              hello.leadmarketing@gmail.com. We’d love to hear from you!
             </p>
           </div>
           <div className="relative">

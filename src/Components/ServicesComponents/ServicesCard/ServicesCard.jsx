@@ -112,7 +112,7 @@ const ServicesCard = () => {
     },
     {
       id: 7,
-      title: "Lead Generation",
+      title: "Performance Marketing",
       icon: TbTargetArrow,
       description:
         "We specialize in crafting intuitive, engaging, and user-friendly apps and websites that elevate your brand's digital presence.",

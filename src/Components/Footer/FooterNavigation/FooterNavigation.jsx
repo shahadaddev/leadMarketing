@@ -33,21 +33,6 @@ const FooterNavigation = () => {
               </li>
             </NavLink>
           ))}
-          {/* <NavLink to={}>
-            <li className="text-lg font-bold hover:text-[#F40026]">About Us</li>
-          </NavLink>
-          <NavLink>
-            <li className="text-lg font-bold hover:text-[#F40026]">Works</li>
-          </NavLink>
-          <NavLink>
-            <li className="text-lg font-bold hover:text-[#F40026]">Services</li>
-          </NavLink>
-          <NavLink>
-            <li className="text-lg font-bold hover:text-[#F40026]">Team</li>
-          </NavLink>
-          <NavLink>
-            <li className="text-lg font-bold hover:text-[#F40026]">Career</li>
-          </NavLink> */}
         </ul>
       </div>
     </div>
