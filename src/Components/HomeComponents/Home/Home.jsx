@@ -10,20 +10,24 @@ import "./Home.css";
 import OurWorks from "../../OurWorkComponents/OurWorks";
 import OurClient from "../../OurClientComponent/OurClient";
 import Location from "../../Location/Location";
-import NavbarHome from "../../SharedComponents/Navbar/NavbarHome";
+// import NavbarHome from "../../SharedComponents/Navbar/NavbarHome";
 import homeBanner from "../../../assets/banner/homeBanner.jpg";
+import Navbar from "../../SharedComponents/Navbar/Navbar";
 
 const Home = () => {
   return (
     <div>
-      <div className="relative h-fit">
-        <div
+      <div className="relative h-fit home-content">
+        {/* <div
           className="absolute inset-0 bg-cover bg-center "
           style={{ backgroundImage: `url(${homeBanner})` }}
-        ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/65 to-red-900/70"></div>
+        ></div> */}
+        {/* <div
+          className="absolute inset-0 bg-gradient-to-r rgba(255, 255, 255, 0.1),
+      rgba(8, 42, 78, 0.8)"
+        ></div> */}
         <div className="relative">
-          <NavbarHome></NavbarHome>
+          <Navbar></Navbar>
           <Banner></Banner>
         </div>
       </div>

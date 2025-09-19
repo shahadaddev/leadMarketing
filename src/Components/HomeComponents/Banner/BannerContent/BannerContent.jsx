@@ -5,7 +5,7 @@ import "../Banner.css";
 const BannerContent = () => {
   return (
     <div>
-      <section className="xl:flex xl:justify-between xl:gap-20 xl:mt-16 lg:mt-14 mt-8 space-y-12">
+      <section className="xl:flex xl:justify-between xl:items-center xl:gap-20 xl:mt-12 lg:mt-14 mt-8 space-y-12">
         <div className="space-y-4 lg:w-2/3 lg:mx-auto mx-4">
           {/* Highlight
           section */}
@@ -17,11 +17,11 @@ const BannerContent = () => {
           </h5>
 
           {/* Sub-Text */}
-          <p className="xl:text-2xl lg:text-xl font-medium xl:leading-7 leading-[26px] lg:text-justify text-center text-white/80">
+          <p className="xl:text-2xl lg:text-xl font-semibold xl:leading-7 leading-[26px] lg:text-justify text-center text-gray-700">
             Lead Marketing Inc. is a full-service marketing and communications
             agency serving worldwide from Canada. This is the global venture of
             Lead Bangladesh Ltd., a full-service marketing agency with
-            <span className="font-bold">10 years </span>
+            <span className="font-bold"> 10 years </span>
             of experience.
           </p>
 

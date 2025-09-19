@@ -1,12 +1,13 @@
 .home-content {
   background-image: linear-gradient(
-      to left,
-      /* rgba(100, 100, 200, 0.6), */ /* rgba(255, 255, 255, 0.1), */
-        /* rgba(8, 42, 78, 0.8) rgba(100, 100, 200, 0.8) */
-        rgba(220, 0, 38, 0.45),
-      rgba(220, 0, 38, 0.68)
+      /* rgba(100, 100, 200, 0.6), */ rgba(255, 255, 255, 0.3),
+      rgba(8, 42, 78, 0.6) /* rgba(100, 100, 200, 0.8) */
+        /* rgba(220, 0, 38, 0.45),
+      rgba(220, 0, 38, 0.68) */
+        /* rgba(255, 255, 255, 0.1),
+      rgba(8, 42, 78, 0.4) */
     ),
-    url("../../../assets/banner/homeBanner.jpg");
+    url("../../../assets/banner/bannerImg.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

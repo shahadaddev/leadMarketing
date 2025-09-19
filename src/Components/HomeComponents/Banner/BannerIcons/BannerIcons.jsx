@@ -4,7 +4,7 @@ import { IoBusinessSharp, IoPeople } from "react-icons/io5";
 const BannerIcons = () => {
   return (
     <div className="w-full">
-      <div className="flex justify-center lg:gap-5 gap-2 mt-8">
+      <div className="flex justify-center xl:gap-8 lg:gap-5 gap-2 mt-12">
         <div className="bg-white/30 backdrop-blur-2xl text-center rounded-xl xl:py-4 py-3 xl:w-44 lg:w-38 w-full">
           <div className="flex justify-center">
             <HiMiniTrophy className="lg:text-4xl text-3xl text-emerald-400 bg-emerald-100 rounded-full px-2" />
