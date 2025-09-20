@@ -19,7 +19,7 @@ import workFour from "../../../assets/works/workSlideFour.jpg";
 import workFive from "../../../assets/works/worksSlideFive.jpg";
 import workSix from "../../../assets/works/worksSlideSix.jpg";
 import workSeven from "../../../assets/works/worksSlideSeven.jpg";
-import workEight from "../../../assets/works/connectingc2c/mission.jpg";
+import workEight from "../../../assets/works/worksSlideEight.jpg";
 
 import { NavLink } from "react-router";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -31,30 +31,33 @@ const WorkRightSlider = () => {
     {
       id: 1,
       img: workOne,
-      facebook: "https://www.facebook.com/nlhurricanes",
-      linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
-      web: "https://www.nlhurricanes.ca/",
+      facebook: "https://www.facebook.com/ConfidenceCement/mentions/",
+      linkedin:
+        "https://www.linkedin.com/company/confidencecement/?originalSubdomain=bd",
+      web: "https://confidencecement.com.bd/",
     },
     {
       id: 2,
       img: workTwo,
-      facebook: "https://www.facebook.com/mogadorrestaurant.ca",
-      linkedin: "https://www.linkedin.com/company/mogadorrestaurant/",
-      web: "",
+      facebook: "https://www.facebook.com/db.dispersebeauty/",
+      linkedin: "",
+      web: "https://dispersebeauty.com/",
     },
     {
       id: 3,
       img: workThree,
-      facebook: "https://facebook.com/darren.martin",
-      linkedin: "https://linkedin.com/in/darren-martin",
-      web: "https://darrenmartin.com",
+      facebook: "https://www.facebook.com/phpfamilybd",
+      linkedin:
+        "https://www.linkedin.com/company/phpfloatglass/?originalSubdomain=bd",
+      web: "https://phpfamily.com/",
     },
     {
       id: 4,
       img: workFour,
-      facebook: "https://www.facebook.com/capitolsalonnl",
-      linkedin: "https://www.linkedin.com/company/capitol-unisex-salon/",
-      web: "https://capitolsalonnl.com/",
+      facebook: "https://www.facebook.com/bsrmbangladesh/",
+      linkedin:
+        "https://www.linkedin.com/company/bsrmbangladesh/?originalSubdomain=bd",
+      web: "https://bsrm.com/",
     },
     {
       id: 5,
@@ -107,11 +110,11 @@ const WorkRightSlider = () => {
         slidesPerView={3}
         // navigation
         loop={true}
-        autoplay={{ delay: 800, disableOnInteraction: false }}
+        autoplay={{ delay: 1000, disableOnInteraction: false }}
         // pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
-        speed={2000}
+        speed={3000}
         style={{
           borderRadius: "12px",
         }}
