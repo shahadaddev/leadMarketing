@@ -7,12 +7,49 @@ import mogaImg2 from "../../../assets/works/mogador/img2.jpg";
 import mogaImg3 from "../../../assets/works/mogador/img3.jpg";
 import mogaImg4 from "../../../assets/works/mogador/img4.jpg";
 
+// -------- connecting coast to coast ----------------
+import coastImg1 from "../../../assets/works/connectingc2c/mission.jpg";
+import coastImg2 from "../../../assets/works/connectingc2c/vission.jpg";
+import coastImg3 from "../../../assets/works/connectingc2c/banner.jpg";
+
 // Hurricane -----------------
 import hc1 from "../../../assets/works/hurricane/hurricaneOne.jpg";
 import hc2 from "../../../assets/works/hurricane/hurricaneTwo.jpg";
 import hc3 from "../../../assets/works/hurricane/hurricaneThree.jpg";
-import { GoArrowUpRight } from "react-icons/go";
-import { NavLink } from "react-router";
+
+// ------------- PHP Float Glass  ---------------
+import php1 from "../../../assets/works/php/php1.jpeg";
+import php2 from "../../../assets/works/php/php2.jpeg";
+import php3 from "../../../assets/works/php/php3.jpeg";
+import php4 from "../../../assets/works/php/php4.jpeg";
+
+// ---------- Total Tools -------------
+import tools1 from "../../../assets/works/tools/tools1.jpg";
+import tools2 from "../../../assets/works/tools/tools2.jpg";
+import tools3 from "../../../assets/works/tools/tools3.jpg";
+import tools4 from "../../../assets/works/tools/tools4.jpg";
+
+// ----------- Gravity --------------
+import gravity1 from "../../../assets/works/gravity/gravity1.jpg";
+import gravity2 from "../../../assets/works/gravity/gravity2.jpg";
+import gravity3 from "../../../assets/works/gravity/gravity3.jpg";
+
+// --------- Confidence ------------
+import confidence1 from "../../../assets/works/confidence/confidence1.jpg";
+import confidence2 from "../../../assets/works/confidence/confidence2.jpg";
+import confidence3 from "../../../assets/works/confidence/confidence3.jpg";
+
+// ------------ Disperse Beauty -----------
+import disperse1 from "../../../assets/works/disperse/disperse1.jpg";
+import disperse2 from "../../../assets/works/disperse/disperse2.jpg";
+import disperse3 from "../../../assets/works/disperse/disperse3.jpg";
+import disperse4 from "../../../assets/works/disperse/disperse4.jpg";
+
+// ------------ Asian University for women ----------
+import auw1 from "../../../assets/works/auw/auw1.jpg";
+import auw2 from "../../../assets/works/auw/auw2.jpg";
+import auw3 from "../../../assets/works/auw/auw3.jpg";
+import auw4 from "../../../assets/works/auw/auw4.jpg";
 
 const WorkPageContent = () => {
   const worksContent = [
@@ -61,12 +98,14 @@ const WorkPageContent = () => {
       id: 4,
       title: "Connecting Coast to Coast",
       paragraph:
-        "A productivity app for managing daily tasks, deadlines, and priorities.",
-      images: ["tasks-home.png", "tasks-list.png", "tasks-detail.png"],
+        "Connecting Coast to Coast is a community-first social organization that accelerates opportunities for students, recent graduates, young professionals, and small business owners.",
+      images: [coastImg1, coastImg2, coastImg3],
       bulletPoints: [
-        "Drag-and-drop tasks",
-        "Reminders and notifications",
-        "Dark mode support",
+        "Logo design",
+        "Brand Identity design",
+        "Web design and development",
+        "Social media management",
+        "Photo and video production",
       ],
     },
     {
@@ -74,7 +113,7 @@ const WorkPageContent = () => {
       title: "PHP Float Glass",
       paragraph:
         "Bangladesh’s first float glass manufacturer offering clear and tinted architectural glass. A pioneer in eco-friendly glass production, catering to diverse construction needs.",
-      images: ["weather-home.png", "weather-details.png", "weather-week.png"],
+      images: [php1, php2, php3, php4],
       bulletPoints: [
         "Marketing Strategies",
         "Social Media Content",
@@ -89,12 +128,7 @@ const WorkPageContent = () => {
       title: "Gravity Fitness",
       paragraph:
         "A modern fitness center in Chattogram equipped with world-class equipment. Provides 24/7 services with expert trainers and a motivating atmosphere.",
-      images: [
-        "fitness-home.png",
-        "fitness-activity.png",
-        "fitness-progress.png",
-        "fitness-meals.png",
-      ],
+      images: [gravity1, gravity2, gravity3],
       bulletPoints: [
         "Marketing Strategies",
         "Social Media Content",
@@ -106,7 +140,7 @@ const WorkPageContent = () => {
       title: "Disperse Beauty",
       paragraph:
         "A cooking app where users can search and save recipes based on ingredients.",
-      images: ["recipe-home.png", "recipe-search.png", "recipe-detail.png"],
+      images: [disperse1, disperse2, disperse3, disperse4],
       bulletPoints: [
         "Ingredient-based search",
         "Favorites list",
@@ -118,7 +152,7 @@ const WorkPageContent = () => {
       title: "Asian University for Women",
       paragraph:
         "An international university in Chattogram empowering women through liberal arts education. Hosts students from over 35 countries, fostering global leadership.",
-      images: ["travel-home.png", "travel-entry.png", "travel-gallery.png"],
+      images: [auw1, auw2, auw3, auw4],
       bulletPoints: ["Photo uploads", "Interactive maps", "Offline support"],
     },
     {
@@ -126,19 +160,14 @@ const WorkPageContent = () => {
       title: "Confidence Cement",
       paragraph:
         "A leading cement manufacturer in Bangladesh known for quality and innovation. Pioneered private sector cement production, contributing to national infrastructure.",
-      images: [
-        "music-home.png",
-        "music-player.png",
-        "music-playlist.png",
-        "music-album.png",
-      ],
+      images: [confidence1, confidence2, confidence3],
       bulletPoints: ["Marketing Strategies", "Social Media Content"],
     },
     {
       id: 10,
       title: "Total Tools",
       paragraph: "A real-time chat app with group messaging and media sharing.",
-      images: ["chat-home.png", "chat-room.png", "chat-media.png"],
+      images: [tools1, tools2, tools3, tools4],
       bulletPoints: [
         "WebSocket real-time updates",
         "Group chats",
@@ -149,7 +178,7 @@ const WorkPageContent = () => {
 
   return (
     <div className="">
-      <div className="xl:space-y-36 space-y-14 text-gray-700 max-w-7xl mx-auto">
+      <div className="xl:space-y-36 lg:space-y-14 space-y-14 text-gray-700 max-w-7xl mx-auto">
         {worksContent.map((work, index) => (
           <div
             key={work.id}

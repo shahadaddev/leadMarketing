@@ -19,6 +19,7 @@ import workFour from "../../../assets/works/workSlideFour.jpg";
 import workFive from "../../../assets/works/worksSlideFive.jpg";
 import workSix from "../../../assets/works/worksSlideSix.jpg";
 import workSeven from "../../../assets/works/worksSlideSeven.jpg";
+import workEight from "../../../assets/works/connectingc2c/mission.jpg";
 
 import { NavLink } from "react-router";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -75,6 +76,13 @@ const WorkLeftSlider = () => {
       facebook: "https://www.facebook.com/nlhurricanes",
       linkedin: "https://www.linkedin.com/company/nl-hurricanes/",
       web: "https://www.nlhurricanes.ca/",
+    },
+    {
+      id: 8,
+      img: workEight,
+      facebook: "https://www.facebook.com/connectingcoasttocoast",
+      linkedin: "https://www.linkedin.com/company/connectingcoasttocoast",
+      web: "https://www.connectingcoasttocoast.ca/",
     },
   ];
 

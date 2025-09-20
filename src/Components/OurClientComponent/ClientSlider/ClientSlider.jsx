@@ -25,6 +25,7 @@ import clientTen from "../../../assets/clients/22.webp";
 import clientEleven from "../../../assets/clients/24.webp";
 import clientTwelve from "../../../assets/clients/3.webp";
 import clientThirteen from "../../../assets/clients/6.webp";
+import clientFifteen from "../../../assets/clients/clientFifteen.jpg";
 import { useState, useEffect } from "react";
 
 const ClientSlider = () => {
@@ -80,6 +81,10 @@ const ClientSlider = () => {
     {
       id: 13,
       img: clientThirteen,
+    },
+    {
+      id: 14,
+      img: clientFifteen,
     },
   ];
 
