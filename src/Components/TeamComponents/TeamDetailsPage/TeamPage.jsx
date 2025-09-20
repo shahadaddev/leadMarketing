@@ -15,19 +15,22 @@ const TeamPage = () => {
       img: memberThree,
       title: "Imtiaj Jehad",
       Designation: "Founder & Marketing Consultant",
-      details: `Imtiaj Jehad is the visionary mind behind Lead Marketing Ltd. and the founder of Lead Marketing Inc., where he leads global operations with purpose and passion. With over 10 years of hands-on experience in advertising, digital marketing, creativity, and technology, he has built a reputation for turning ideas into results and challenges into opportunities.
+      details: `Imtiaj Jehad is the Founder and Marketing Consultant at Lead Marketing Inc. and the Co-founder and Managing Director of Lead Bangladesh Ltd. With over 10 years of hands-on experience in advertising, digital marketing, creativity, and technology, he has built a reputation for turning ideas into results and challenges into opportunities.
       \n\n
-      Imtiaj works closely with brands across a wide range of industries including IT, FMCG, food and beverage, real estate, healthcare, tourism, and e-commerce. He crafts strategies that are insight driven and impact focused. His deep understanding of data, consumer behavior, and market dynamics enables him to guide clients toward smarter decisions and stronger return on investment.
+      Imtiaj has worked closely with brands across industries including IT, FMCG, food and beverage, real estate, healthcare, tourism, and e-commerce. He develops strategies that are insight-driven and impact-focused. His deep understanding of data, consumer behavior, and market dynamics enables him to guide clients toward smarter decisions and stronger returns on investment.
       \n\n
-      Since 2014, Imtiaj has supported over 400 businesses worldwide not just as a service provider but as a creative partner and problem solver. Known for his energy, curiosity, and ability to connect the dots, he continues to lead with heart, innovation, and a clear vision for the future of marketing.`,
+      Since 2014, Imtiaj has supported over 400 businesses worldwide, not just as a service provider but as a creative partner and problem solver. Known for his energy, curiosity, and ability to connect the dots, he continues to lead with passion, innovation, and a clear vision for the future of marketing.`,
     },
     {
       id: 2,
       img: memberTwo,
       title: "Fatema Fahima",
       Designation: "Co-founder & The Creative geek",
-      details: `Fatema Yeasmin Chowdhury is the Co-founder and The creative Geek at Lead Marketing Inc. and the Director of Communications at Lead Marketing Ltd. blends creativity with cutting-edge technology. Armed with an MSc in Computer Science from the Memorial University of Newfoundland, Fatema is a creative geek and a visionary who excels in data-driven planning, digital marketing, and communication strategies. With a rich tapestry of experience spanning six years, she held the esteemed role of Creative Head at a leading marketing agency in her home country. Upon coming to Canada to pursue her MSc, she brought her unique blend of skills to work with prestigious social enterprises like Newbornlander, Home Again Furniture Bank, and non-profit organisations like Women in Resource Development Corporation. \n\n
-      In her realm, every pixel is carefully curated to weave a narrative of seamless creativity, where technology and ideation dance in perfect harmony to bring results.`,
+      details: `Fatema Yeasmin Chowdhury, Co-founder and Creative Geek at Lead Marketing Inc. and Director of Communications at Lead Bangladesh Ltd., blends creativity with cutting-edge technology. Armed with an MSc in Computer Science from Memorial University of Newfoundland, Fatema is both a visionary and a strategist, excelling in data-driven planning, digital marketing, and communication strategies.
+      \n\n 
+      With over seven years of diverse experience, she previously served as Creative Head at Lead Bangladesh. After moving to Canada to pursue her MSc, she brought her unique skill set to support respected social enterprises such as Newbornlander and Home Again Furniture Bank, as well as nonprofit organizations like the Women in Resource Development Corporation.
+      \n\n
+      In her world, every pixel is carefully crafted to tell a story, where creativity and technology work hand in hand to deliver impactful results.`,
     },
     {
       id: 3,
