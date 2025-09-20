@@ -71,7 +71,7 @@ const Location = () => {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white overflow-hidden">
       <div className="pt-14">
         <LocationTitle />
       </div>

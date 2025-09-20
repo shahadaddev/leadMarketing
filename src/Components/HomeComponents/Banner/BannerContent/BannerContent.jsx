@@ -17,7 +17,7 @@ const BannerContent = () => {
           </h5>
 
           {/* Sub-Text */}
-          <p className="xl:text-2xl lg:text-xl font-semibold xl:leading-7 leading-[26px] lg:text-justify text-center text-gray-700">
+          <p className="xl:text-2xl lg:text-xl font-semibold xl:leading-7 leading-[24px] lg:text-justify text-center text-gray-700">
             Lead Marketing Inc. is a full-service marketing and communications
             agency serving worldwide from Canada. This is the global venture of
             Lead Bangladesh Ltd., a full-service marketing agency with

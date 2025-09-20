@@ -11,7 +11,7 @@ import OurWorks from "../../OurWorkComponents/OurWorks";
 import OurClient from "../../OurClientComponent/OurClient";
 import Location from "../../Location/Location";
 // import NavbarHome from "../../SharedComponents/Navbar/NavbarHome";
-import homeBanner from "../../../assets/banner/homeBanner.jpg";
+// import homeBanner from "../../../assets/banner/homeBanner.jpg";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
 
 const Home = () => {

@@ -12,8 +12,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import clientOne from "../../../assets/clients/clientOne.png";
-import clientTwo from "../../../assets/clients/clientTwo.png";
+import clientOne from "../../../assets/clients/clientOne.jpg";
+import clientTwo from "../../../assets/clients/clientTwo.jpg";
 import clientThree from "../../../assets/clients/10.webp";
 import clientFour from "../../../assets/clients/12.webp";
 import clientFive from "../../../assets/clients/7.webp";
