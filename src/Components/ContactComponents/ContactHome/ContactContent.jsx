@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCalendarCheck, FaPhone } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 import { MdEmail } from "react-icons/md";
