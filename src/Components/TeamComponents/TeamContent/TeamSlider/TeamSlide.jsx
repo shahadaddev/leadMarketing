@@ -53,9 +53,9 @@ const TeamSlide = () => {
       img: memberFive,
       title: "Darren Martin",
       Designation: "The Mentor",
-      details: `Darren, a seasoned financial services professional, brings nearly four decades of industry experience, spanning roles in Retail, Small Business, Internal Audit, Commercial, and International Banking. Excelling at Scotiabank, he managed Eastern Canada's largest Retail and Small Business branch. His leadership extends to boardrooms, including a significant tenure with the St. John's International Airport Authority.
+      details: `Darren, a seasoned financial services professional, brings nearly four decades of industry experience, spanning roles in Retail, Small Business, Internal Audit, Commercial, and International Banking. Excelling at Scotiabank, he managed Eastern Canada's largest Retail and Small Business branch. His leadership extends to boardrooms, including a significant tenure with the St. John's International Airport Authority. 
       \n\n
-      Currently, as the Business Development Support Services Officer at the Association for New Canadians, Darren passionately mentors newcomers, fostering entrepreneurship. His commitment to community service is evident through roles with Big Brothers Big Sisters, Canadian Cancer Society, and the Cerebral Palsy Association. Darren's outstanding volunteerism has garnered numerous awards, including the Canadian Cancer Society's Impact Award and Scotiabank's Canadian Community Leadership award.
+      Currently, as the Business Development Support Services Officer at the Association for New Canadians, Darren passionately mentor's newcomers, fostering entrepreneurship. His commitment to community service is evident through his current volunteer position as Board Chair for Ronald McDonald House - NL Chapter and previous roles with Big Brothers Big Sisters, Canadian Cancer Society, and the Cerebral Palsy Association. Darren's outstanding volunteerism has garnered numerous awards, including the Canadian Cancer Society's Impact Award and Scotiabank's Canadian Community Leadership award.
 `,
     },
     {
@@ -208,7 +208,7 @@ const TeamSlide = () => {
             {/* Close Button */}
             <button
               onClick={() => setSelectedTeam(null)}
-              className="absolute lg:top-6 lg:right-6 top-4 right-5 text-[#F40026] hover:scale-125 transition-all duration-300 cursor-pointer"
+              className="absolute lg:top-2 lg:right-6 top-4 right-5 text-[#F40026] hover:scale-125 transition-all duration-300 cursor-pointer"
             >
               <IoClose className="text-4xl" />
             </button>
